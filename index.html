@@ -1,0 +1,2590 @@
+<!DOCTYPE html>
+<html data-scrapbook-source="https://xn--54-6kcatgtd8agfsxhp0eyf0b.xn--p1ai/" data-scrapbook-create="20200909143257966">
+<head>
+<style type="text/css">.swal-icon--error{border-color:#f27474;-webkit-animation:animateErrorIcon .5s;animation:animateErrorIcon .5s}.swal-icon--error__x-mark{position:relative;display:block;-webkit-animation:animateXMark .5s;animation:animateXMark .5s}.swal-icon--error__line{position:absolute;height:5px;width:47px;background-color:#f27474;display:block;top:37px;border-radius:2px}.swal-icon--error__line--left{-webkit-transform:rotate(45deg);transform:rotate(45deg);left:17px}.swal-icon--error__line--right{-webkit-transform:rotate(-45deg);transform:rotate(-45deg);right:16px}@-webkit-keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@-webkit-keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}@keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}.swal-icon--warning{border-color:#f8bb86;-webkit-animation:pulseWarning .75s infinite alternate;animation:pulseWarning .75s infinite alternate}.swal-icon--warning__body{width:5px;height:47px;top:10px;border-radius:2px;margin-left:-2px}.swal-icon--warning__body,.swal-icon--warning__dot{position:absolute;left:50%;background-color:#f8bb86}.swal-icon--warning__dot{width:7px;height:7px;border-radius:50%;margin-left:-4px;bottom:-11px}@-webkit-keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}@keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}.swal-icon--success{border-color:#a5dc86}.swal-icon--success:after,.swal-icon--success:before{content:"";border-radius:50%;position:absolute;width:60px;height:120px;background:#fff;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal-icon--success:before{border-radius:120px 0 0 120px;top:-7px;left:-33px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:60px 60px;transform-origin:60px 60px}.swal-icon--success:after{border-radius:0 120px 120px 0;top:-11px;left:30px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 60px;transform-origin:0 60px;-webkit-animation:rotatePlaceholder 4.25s ease-in;animation:rotatePlaceholder 4.25s ease-in}.swal-icon--success__ring{width:80px;height:80px;border:4px solid hsla(98,55%,69%,.2);border-radius:50%;box-sizing:content-box;position:absolute;left:-4px;top:-4px;z-index:2}.swal-icon--success__hide-corners{width:5px;height:90px;background-color:#fff;padding:1px;position:absolute;left:28px;top:8px;z-index:1;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal-icon--success__line{height:5px;background-color:#a5dc86;display:block;border-radius:2px;position:absolute;z-index:2}.swal-icon--success__line--tip{width:25px;left:14px;top:46px;-webkit-transform:rotate(45deg);transform:rotate(45deg);-webkit-animation:animateSuccessTip .75s;animation:animateSuccessTip .75s}.swal-icon--success__line--long{width:47px;right:8px;top:38px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-animation:animateSuccessLong .75s;animation:animateSuccessLong .75s}@-webkit-keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@-webkit-keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@-webkit-keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}@keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}.swal-icon--info{border-color:#c9dae1}.swal-icon--info:before{width:5px;height:29px;bottom:17px;border-radius:2px;margin-left:-2px}.swal-icon--info:after,.swal-icon--info:before{content:"";position:absolute;left:50%;background-color:#c9dae1}.swal-icon--info:after{width:7px;height:7px;border-radius:50%;margin-left:-3px;top:19px}.swal-icon{width:80px;height:80px;border-width:4px;border-style:solid;border-radius:50%;padding:0;position:relative;box-sizing:content-box;margin:20px auto}.swal-icon:first-child{margin-top:32px}.swal-icon--custom{width:auto;height:auto;max-width:100%;border:none;border-radius:0}.swal-icon img{max-width:100%;max-height:100%}.swal-title{color:rgba(0,0,0,.65);font-weight:600;text-transform:none;position:relative;display:block;padding:13px 16px;font-size:27px;line-height:normal;text-align:center;margin-bottom:0}.swal-title:first-child{margin-top:26px}.swal-title:not(:first-child){padding-bottom:0}.swal-title:not(:last-child){margin-bottom:13px}.swal-text{font-size:16px;position:relative;float:none;line-height:normal;vertical-align:top;text-align:left;display:inline-block;margin:0;padding:0 10px;font-weight:400;color:rgba(0,0,0,.64);max-width:calc(100% - 20px);overflow-wrap:break-word;box-sizing:border-box}.swal-text:first-child{margin-top:45px}.swal-text:last-child{margin-bottom:45px}.swal-footer{text-align:right;padding-top:13px;margin-top:13px;padding:13px 16px;border-radius:inherit;border-top-left-radius:0;border-top-right-radius:0}.swal-button-container{margin:5px;display:inline-block;position:relative}.swal-button{background-color:#7cd1f9;color:#fff;border:none;box-shadow:none;border-radius:5px;font-weight:600;font-size:14px;padding:10px 24px;margin:0;cursor:pointer}.swal-button:not([disabled]):hover{background-color:#78cbf2}.swal-button:active{background-color:#70bce0}.swal-button:focus{outline:none;box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(43,114,165,.29)}.swal-button[disabled]{opacity:.5;cursor:default}.swal-button::-moz-focus-inner{border:0}.swal-button--cancel{color:#555;background-color:#efefef}.swal-button--cancel:not([disabled]):hover{background-color:#e8e8e8}.swal-button--cancel:active{background-color:#d7d7d7}.swal-button--cancel:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(116,136,150,.29)}.swal-button--danger{background-color:#e64942}.swal-button--danger:not([disabled]):hover{background-color:#df4740}.swal-button--danger:active{background-color:#cf423b}.swal-button--danger:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(165,43,43,.29)}.swal-content{padding:0 20px;margin-top:20px;font-size:medium}.swal-content:last-child{margin-bottom:20px}.swal-content__input,.swal-content__textarea{-webkit-appearance:none;background-color:#fff;border:none;font-size:14px;display:block;box-sizing:border-box;width:100%;border:1px solid rgba(0,0,0,.14);padding:10px 13px;border-radius:2px;transition:border-color .2s}.swal-content__input:focus,.swal-content__textarea:focus{outline:none;border-color:#6db8ff}.swal-content__textarea{resize:vertical}.swal-button--loading{color:transparent}.swal-button--loading~.swal-button__loader{opacity:1}.swal-button__loader{position:absolute;height:auto;width:43px;z-index:2;left:50%;top:50%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);text-align:center;pointer-events:none;opacity:0}.swal-button__loader div{display:inline-block;float:none;vertical-align:baseline;width:9px;height:9px;padding:0;border:none;margin:2px;opacity:.4;border-radius:7px;background-color:hsla(0,0%,100%,.9);transition:background .2s;-webkit-animation:swal-loading-anim 1s infinite;animation:swal-loading-anim 1s infinite}.swal-button__loader div:nth-child(3n+2){-webkit-animation-delay:.15s;animation-delay:.15s}.swal-button__loader div:nth-child(3n+3){-webkit-animation-delay:.3s;animation-delay:.3s}@-webkit-keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}@keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}.swal-overlay{position:fixed;top:0;bottom:0;left:0;right:0;text-align:center;font-size:0;overflow-y:auto;background-color:rgba(0,0,0,.4);z-index:10000;pointer-events:none;opacity:0;transition:opacity .3s}.swal-overlay:before{content:" ";display:inline-block;vertical-align:middle;height:100%}.swal-overlay--show-modal{opacity:1;pointer-events:auto}.swal-overlay--show-modal .swal-modal{opacity:1;pointer-events:auto;box-sizing:border-box;-webkit-animation:showSweetAlert .3s;animation:showSweetAlert .3s;will-change:transform}.swal-modal{width:478px;opacity:0;pointer-events:none;background-color:#fff;text-align:center;border-radius:5px;position:static;margin:20px auto;display:inline-block;vertical-align:middle;-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;z-index:10001;transition:opacity .2s,-webkit-transform .3s;transition:transform .3s,opacity .2s;transition:transform .3s,opacity .2s,-webkit-transform .3s}@media (max-width:500px){.swal-modal{width:calc(100% - 20px)}}@-webkit-keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}@keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}</style>
+
+    <!-- PLUGINS -->
+    
+
+
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="generator" content="Creatium">
+
+    <title>Уничтожение клопов и насекомых</title>
+
+    <link rel="canonical" href="https://xn--54-6kcatgtd8agfsxhp0eyf0b.xn--p1ai/">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+<!--[if IE]><link rel="shortcut icon" href="https://437e81e1-5ed1-4d53-bed7-e6f8d97dcc9b.selcdn.net/d3/ea/8e/c83e1cce899f330e7f421e0779e550aee6/32x32/82f0f0c42ebe53daa7cd5cdfc0d8565f.png"><![endif]-->
+<link rel="apple-touch-icon-precomposed" href="https://437e81e1-5ed1-4d53-bed7-e6f8d97dcc9b.selcdn.net/d3/ea/8e/c83e1cce899f330e7f421e0779e550aee6/180x180/82f0f0c42ebe53daa7cd5cdfc0d8565f.png">
+<link rel="icon" href="82f0f0c42ebe53daa7cd5cdfc0d8565f.png">
+                
+    <!-- CORE -->
+    <link type="text/css" rel="stylesheet" href="vendors.css"><link type="text/css" rel="stylesheet" href="default.css"><link type="text/css" rel="stylesheet" href="nodes.css">    <link rel="preload" as="script">
+            <style> .node.css0  { color: #FFF; padding-top: 10px; padding-bottom: 10px; padding-left: 5px; padding-right: 5px }
+.node.css0 a { color: rgb(25, 88, 230) }
+
+
+.metahtml.css2 .hamburger1 {
+  position: relative;
+}
+
+.metahtml.css2 .hamburger1-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.metahtml.css2 .hamburger1-altmenu {
+  flex-grow: 1;
+  order: 1;
+}
+
+.metahtml.css2 .hamburger1-toggle {
+  width: 34px;
+  height: 20.4px;
+  flex: 0 0 34px;
+  margin: 5px;
+  cursor: pointer;
+  margin-top: 0;
+  order: 2;
+  position: relative;
+}
+
+.metahtml.css2 .hamburger1-toggle span {
+  display: block;
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  background: rgb(73, 141, 245);
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.metahtml.css2 .hamburger1-toggle span:nth-child(1) {
+  top: 0px;
+}
+
+.metahtml.css2 .hamburger1-toggle span:nth-child(2),
+.metahtml.css2 .hamburger1-toggle span:nth-child(3) {
+  top: 10px;
+}
+
+.metahtml.css2 .hamburger1-toggle span:nth-child(4) {
+  top: 20px;
+}
+
+.metahtml.css2 .hamburger1-toggle.is-expanded span:nth-child(1) {
+  top: 10px;
+  width: 0%;
+  left: 50%;
+  opacity: 0;
+}
+
+.metahtml.css2 .hamburger1-toggle.is-expanded span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.metahtml.css2 .hamburger1-toggle.is-expanded span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.metahtml.css2 .hamburger1-toggle.is-expanded span:nth-child(4) {
+  top: 10.2px;
+  width: 0%;
+  left: 50%;
+  opacity: 0;
+}
+.btn.css3 { background-color: rgba(73, 141, 245, 0);border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;border-bottom-left-radius: 5px;border-style: solid;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px;border-right-width: 0px;border-color: rgb(73, 141, 245);padding-top: 6px;padding-bottom: 6px;font-size: 14px;color: rgb(255, 255, 255); } .btn.css3:hover, .btn.css3.hover { background-color: rgba(43, 123, 243, 0.1);border-color: rgb(43, 123, 243);color: rgb(255, 255, 255); } .btn.css3:active, .btn.css3.active { background-color: rgb(43, 123, 243);border-color: rgb(12, 93, 217);color: rgb(255, 255, 255); } .btn.css3:before {  } .btn.css3:active:before, .btn.css3.active:before { background-color: rgb(43, 123, 243); }
+.node.css4  { color: #FFF; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css4 a { color: rgb(25, 88, 230) }
+
+.node.css5  { color: #FFF; padding-top: 10px; padding-bottom: 10px; padding-left: 5px; padding-right: 5px }
+.node.css5 a { color: rgb(25, 88, 230) }
+
+.node.css6  { color: #FFF; padding-top: 10px; padding-bottom: 10px; padding-left: 5px; padding-right: 5px }
+.node.css6 a { color: rgb(25, 88, 230) }
+
+.node.css7  { color: #FFF; padding-top: 5px; padding-bottom: 5px; padding-left: 0px; padding-right: 5px }
+.node.css7 a { color: rgb(25, 88, 230) }
+
+.textable.css8  { text-align: right; font-family: "TTNorms Regular"; font-size: 18px; line-height: 1.4; letter-spacing: 0em; opacity: 1 }
+.screen-xs .textable.css8  { text-align: center!important }
+
+.node.css9 > .wrapper1 { background-color: rgb(4, 24, 69) }
+.node.css9  { color: #FFF }
+.node.css9  > .padding_top { padding-top: 0px }
+.node.css9  > .padding_bottom { padding-bottom: 0px }
+.node.css9 a { color: rgb(25, 88, 230) }
+
+.node.css10  { color: #FFF; padding-top: 0px; padding-bottom: 0px; padding-left: 5px; padding-right: 5px }
+.screen-xs .node.css10  { padding-top: 0px!important }
+.node.css10 a { color: rgb(25, 142, 230) }
+
+.textable.css11  { text-align: center; font-family: "TTNorms Medium"; font-size: 56px; line-height: 1.1; letter-spacing: 0em; opacity: 1 }
+.screen-xs .textable.css11  { text-align: center!important; font-size: 39px!important }
+
+.node.css12  { color: #FFF; padding-top: 30px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css12 a { color: rgb(25, 142, 230) }
+
+.textable.css13  { text-align: center; font-family: "TTNorms Medium"; font-size: 28px; line-height: 1.1; letter-spacing: 0em; opacity: 1 }
+.screen-xs .textable.css13  { text-align: center!important; font-size: 22px!important }
+
+.node.css14  { color: #FFF; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css14 a { color: rgb(25, 142, 230) }
+
+.textable.css15  { text-align: center; font-family: "TTNorms Regular"; font-size: 24px; line-height: 1.4; letter-spacing: 0em; opacity: 1 }
+.screen-xs .textable.css15  { text-align: center!important }
+
+.textable.css16  { text-align: center; font-family: "Open Sans"; font-size: 16px; line-height: 1.4; letter-spacing: 0em; color: rgb(255, 255, 255); opacity: 0.85 }
+.screen-xs .textable.css16  { text-align: center!important }
+
+.textable.css17  { text-align: center; font-family: "Open Sans"; font-size: 16px; line-height: 1.4; letter-spacing: 0em; opacity: 0.85 }
+.screen-xs .textable.css17  { text-align: center!important }
+
+.node.css18  { color: #FFF; padding-top: 68px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css18 a { color: rgb(25, 142, 230) }
+
+.btn.css19 { background-color: rgb(245, 73, 73);border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;border-style: solid;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px;border-right-width: 0px;border-color: rgb(241, 13, 13);padding-top: 17px;padding-bottom: 17px;font-size: 20px;color: rgb(255, 255, 255); } .btn.css19:hover, .btn.css19.hover { background-color: rgb(243, 43, 43);border-color: rgb(193, 11, 11);color: rgb(255, 255, 255); } .btn.css19:active, .btn.css19.active { background-color: rgb(242, 16, 16);border-color: rgb(217, 12, 12);color: rgb(255, 255, 255); } .btn.css19:before {  } .btn.css19:active:before, .btn.css19.active:before { background-color: rgb(242, 16, 16); }
+.metahtml.css20 .modal4-root {
+  border-radius: 6px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transform: scale(1.1);
+  transition: 300ms all ease-out;
+}
+
+.metahtml.css20 .modal4-root.is-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.metahtml.css20 .modal4-root.is-hiding {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.metahtml.css20 .modal4-panel1 {
+  padding: 15px;
+  background-color: rgb(73, 141, 245);
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.metahtml.css20 .modal4-panel2 {
+  padding: 15px;
+  background-color: rgb(255, 255, 255);
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.metahtml.css20 .modal4-close {
+  cursor: pointer;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 100px;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  top: -10px;
+  right: -10px;
+  transition: transform 200ms;
+}
+
+.metahtml.css20 .modal4-close-h,
+.metahtml.css20 .modal4-close-v {
+  background-color: black;
+  display: block;
+  width: 16px;
+  height: 2px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.metahtml.css20 .modal4-close-h {
+  transform: translate(-50%, -50%) rotate(135deg);
+}
+
+.metahtml.css20 .modal4-close-v {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.metahtml.css20 .modal4-close:hover {
+  transform: scale(1.1);
+}
+.textable.css21  { text-align: center; font-family: "TTNorms Medium"; font-size: 28px; line-height: 1.1; letter-spacing: 0.028571428571428574em; opacity: 1 }
+.screen-xs .textable.css21  { text-align: center!important }
+
+.textable.css22  { text-align: center; font-family: "TTNorms Regular"; font-size: 16px; line-height: 1.4; letter-spacing: 0em; opacity: 0.65 }
+.screen-xs .textable.css22  { text-align: center!important }
+
+.metahtml.css23 .form1-cover {
+  padding: 10px 5px;
+  background-color: transparent;
+  border-color: rgb(73, 141, 245);
+  border-style: none;
+  border-width: 2px;
+  border-radius: 5px;
+  box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+.metahtml.css24 [cr-field] {
+  padding-bottom: 14px;
+  font-size: 14px;
+  font-family: TTNorms Regular;
+}
+
+.metahtml.css24 .name {
+  font-weight: normal;
+  font-family: TTNorms Regular;
+  opacity: 0.8;
+  margin-bottom: 6.5px;
+  font-size: 13px;
+  word-wrap: break-word;
+  text-transform: uppercase;;
+  letter-spacing: 0.1em;;
+}
+
+.metahtml.css24 .form-control {
+  height: auto;
+  line-height: 1.2;
+  box-shadow: none;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+  padding: 12px 9.6px;
+  font-size: 14px;
+  cursor: initial;
+}
+
+.metahtml.css24 .form-control:focus,
+.metahtml.css24 .form-control:focus-within {
+  border-color: rgb(73, 141, 245);
+  background-color: rgb(252, 252, 252);
+}
+
+.metahtml.css24 .form-control + .form-control {
+  margin-top: 10px;
+}
+
+.metahtml.css24 label {
+  font-weight: normal;
+  display: block;
+  cursor: pointer;
+}
+
+.metahtml.css24 textarea {
+  resize: vertical;
+}
+
+.metahtml.css24 .checkbox {
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  margin: 0 5.5px 0 0;
+  line-height: 0;
+  min-height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  background: white;
+  border: 2px solid rgba(0, 0, 0, 0.25);
+  position: relative;
+  transition: 300ms all;
+  border-radius: 2px;
+}
+
+.metahtml.css24 .checkbox svg {
+  width: 100%;
+  opacity: 0;
+  transform: scale(0);
+  transition: 300ms all;
+}
+
+.metahtml.css24 input:hover ~ .checkbox,
+.metahtml.css24 input:focus ~ .checkbox {
+  border-color: rgb(164, 198, 250);
+}
+
+.metahtml.css24 input:checked ~ .checkbox {
+  border-color: rgb(43, 123, 243);
+  background-color: rgb(73, 141, 245);
+}
+
+.metahtml.css24 input:active ~ .checkbox {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.metahtml.css24 input:checked ~ .checkbox svg {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.metahtml.css24 .radio {
+  margin: 0;
+  margin: 0 5.5px 0 0;
+  padding: 0;
+  line-height: 0;
+  width: 22px;
+  height: 22px;
+  min-height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  background: white;
+  border: 2px solid rgba(0, 0, 0, 0.25);
+  position: relative;
+  transition: 300ms all;
+  border-radius: 100px;
+}
+
+.metahtml.css24 .radio:before {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 0;
+  height: 100%;
+  content: '';
+  display: block;
+  background-color: white;
+  border-radius: 100px;
+  opacity: 0;
+  transform: scale(0);
+  transition: 300ms all;
+}
+
+.metahtml.css24 input:hover ~ .radio,
+.metahtml.css24 input:focus ~ .radio {
+  border-color: rgb(164, 198, 250);
+}
+
+.metahtml.css24 input:active ~ .radio {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.metahtml.css24 input:checked ~ .radio {
+  border-color: rgb(43, 123, 243);
+  background-color: rgb(73, 141, 245);
+}
+
+.metahtml.css24 input:checked ~ .radio:before {
+  opacity: 1;
+  transform: scale(0.5);
+}
+
+.metahtml.css24 [cr-field="checkbox-list"] span {
+  vertical-align: middle;
+}
+
+.metahtml.css24 [cr-field="checkbox-list"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.metahtml.css24 [cr-field="checkbox-list"] label + label {
+  margin-top: 7.333333333333333px;
+}
+
+.metahtml.css24 [cr-field="checkbox-visual"] {
+  overflow: hidden;
+}
+
+.metahtml.css24 [cr-field="checkbox-visual"] .items {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -20px;
+  justify-content: space-between;
+}
+
+.metahtml.css24 [cr-field="checkbox-visual"] .item {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 30%;
+}
+
+.metahtml.css24 [cr-field="checkbox-visual"] label {
+  position: relative;
+}
+
+.metahtml.css24 [cr-field="checkbox-visual"] .bgimage {
+  background-size: cover;
+  display: inline-block;
+  background-position: center;
+  border-radius: 50px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+}
+
+.metahtml.css24 [cr-field="checkbox-visual"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.metahtml.css24 [cr-field="checkbox-visual"] .tick {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(73, 141, 245, 0.75);
+  transition: all 300ms;
+  opacity: 0;
+}
+
+.metahtml.css24 [cr-field="checkbox-visual"] .tick svg {
+  opacity: 0;
+  transition: all 300ms;
+  max-width: 26px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.metahtml.css24 [cr-field="checkbox-visual"] .subname {
+  margin: 7px 0;
+  word-wrap: break-word;
+}
+
+.metahtml.css24 [cr-field="checkbox-visual"] input:hover ~ .bgimage .tick,
+.metahtml.css24 [cr-field="checkbox-visual"] input:focus ~ .bgimage .tick {
+  opacity: 0.5;
+}
+
+.metahtml.css24 [cr-field="checkbox-visual"] input:checked ~ .bgimage .tick,
+.metahtml.css24 [cr-field="checkbox-visual"] input:checked ~ .bgimage .tick svg {
+  opacity: 1;
+}
+
+.metahtml.css24 [cr-field="checkbox-input"] span {
+  vertical-align: middle;
+}
+
+.metahtml.css24 [cr-field="checkbox-input"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.metahtml.css24 [cr-field="radio-list"] span {
+  vertical-align: middle;
+}
+
+.metahtml.css24 [cr-field="radio-list"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.metahtml.css24 [cr-field="radio-list"] label + label {
+  margin-top: 7.333333333333333px;
+}
+
+.metahtml.css24 [cr-field="radio-visual"] {
+  overflow: hidden;
+}
+
+.metahtml.css24 [cr-field="radio-visual"] .items {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -20px;
+  justify-content: space-between;
+}
+
+.metahtml.css24 [cr-field="radio-visual"] .item {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 30%;
+}
+
+.metahtml.css24 [cr-field="radio-visual"] label {
+  position: relative;
+}
+
+.metahtml.css24 [cr-field="radio-visual"] .bgimage {
+  background-size: cover;
+  display: inline-block;
+  background-position: center;
+  border-radius: 50px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+}
+
+.metahtml.css24 [cr-field="radio-visual"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.metahtml.css24 [cr-field="radio-visual"] .tick {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(73, 141, 245, 0.75);
+  transition: all 300ms;
+  opacity: 0;
+}
+
+.metahtml.css24 [cr-field="radio-visual"] .tick svg {
+  opacity: 0;
+  transition: all 300ms;
+  max-width: 26px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.metahtml.css24 [cr-field="radio-visual"] .subname {
+  margin: 7px 0;
+  word-wrap: break-word;
+}
+
+.metahtml.css24 [cr-field="radio-visual"] input:hover ~ .bgimage .tick {
+  opacity: 0.5;
+}
+
+.metahtml.css24 [cr-field="radio-visual"] input:checked ~ .bgimage .tick,
+.metahtml.css24 [cr-field="radio-visual"] input:checked ~ .bgimage .tick svg {
+  opacity: 1;
+}
+
+.metahtml.css24 [cr-field="select-menu"] select {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 1;
+  color: black;
+}
+
+.metahtml.css24 [cr-field="select-menu"] .fa {
+  font-size: 20px;
+  line-height: 0;
+  opacity: 0.5;
+  vertical-align: middle;
+}
+
+.metahtml.css24 [cr-field="select-menu"] .flexgrid {
+  display: flex;
+  align-items: center;
+}
+
+.metahtml.css24 [cr-field="select-menu"] .flexgrid .left {
+  flex-grow: 1;
+  min-width: 50%;
+  word-wrap: break-word;
+}
+
+.metahtml.css24 [cr-field="file"] svg {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
+
+.metahtml.css24 [cr-field="file"] span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+.metahtml.css24 [cr-field="file"] input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 0;
+}
+
+.metahtml.css24 [cr-field="file"] .clean {
+  float: right;
+  opacity: 0.5;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.metahtml.css24 [cr-field="file"] .clean:hover {
+  opacity: 1;
+}
+
+.metahtml.css24 [cr-field="file"] .flexgrid {
+  display: flex;
+  align-items: center;
+}
+
+.metahtml.css24 [cr-field="file"] .flexgrid .center {
+  flex-grow: 1;
+  min-width: 50%;
+  word-wrap: break-word;
+}
+
+.metahtml.css24 [cr-field="result"] .flexgrid.align-sides {
+  display: flex;
+  align-items: center;
+}
+
+.metahtml.css24 [cr-field="result"] .flexgrid.align-sides .left .name {
+  margin-bottom: 0;
+}
+
+.metahtml.css24 [cr-field="result"] .flexgrid.align-center .left {
+  text-align: center;
+}
+
+.metahtml.css24 [cr-field="result"] .flexgrid.align-right .left {
+  text-align: right;
+}
+
+.metahtml.css24 [cr-field="result"] .flexgrid .right {
+  flex-grow: 1;
+  min-width: 25%;
+  word-wrap: break-word;
+  text-align: right;
+  font-size: 120%;
+}
+
+.metahtml.css24 [cr-field="result"] .flexgrid.align-left .right {
+  text-align: left;
+}
+
+.metahtml.css24 [cr-field="result"] .flexgrid.align-center .right {
+  text-align: center;
+}
+
+.metahtml.css24 [cr-field="result"] .flexgrid.align-right .right {
+  text-align: right;
+}
+
+.metahtml.css24 [cr-field="privacy-button"] .open {
+  text-align: center;
+  opacity: 0.5;
+  font-size: 80%;
+  cursor: pointer;
+}
+
+.metahtml.css24 [cr-field="privacy-button"] .open a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.metahtml.css24 [cr-field="privacy-checkbox"] {
+  font-size: 80%;
+}
+
+.metahtml.css24 [cr-field="privacy-checkbox"] span {
+  vertical-align: middle;
+}
+
+.metahtml.css24 [cr-field="privacy-checkbox"] a {
+  vertical-align: middle;
+  text-decoration: none;
+  border-bottom-width: 1px;
+  border-bottom-style: dashed;
+  color: inherit;
+  cursor: pointer;
+}
+
+.metahtml.css24 [cr-field="privacy-checkbox"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.metahtml.css24 [cr-field="privacy-text"] {
+  font-size: 80%;
+  text-align: center;
+}
+
+.metahtml.css24 [cr-field="privacy-text"] a {
+  text-decoration: none;
+  border-bottom-width: 1px;
+  border-bottom-style: dashed;
+  color: inherit;
+  cursor: pointer;
+}
+
+.metahtml.css24 [cr-field="hidden"] {
+  opacity: 0.25;
+}
+.node.css25  { color: #333; padding-top: 5px; padding-bottom: 5px; padding-left: 10px; padding-right: 10px }
+.node.css25 a { color: rgb(25, 142, 230) }
+
+.metahtml.css26 [cr-field] {
+  padding-bottom: 14px;
+  font-size: 14px;
+  font-family: TTNorms Regular;
+}
+
+.metahtml.css26 .name {
+  font-weight: normal;
+  font-family: TTNorms Regular;
+  opacity: 0.8;
+  margin-bottom: 6.5px;
+  font-size: 13px;
+  word-wrap: break-word;
+  text-transform: uppercase;;
+  letter-spacing: 0.1em;;
+}
+
+.metahtml.css26 .form-control {
+  height: auto;
+  line-height: 1.2;
+  box-shadow: none;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+  padding: 12px 9.6px;
+  font-size: 14px;
+  cursor: initial;
+}
+
+.metahtml.css26 .form-control:focus,
+.metahtml.css26 .form-control:focus-within {
+  border-color: rgb(73, 141, 245);
+  background-color: rgb(252, 252, 252);
+}
+
+.metahtml.css26 .form-control + .form-control {
+  margin-top: 10px;
+}
+
+.metahtml.css26 label {
+  font-weight: normal;
+  display: block;
+  cursor: pointer;
+}
+
+.metahtml.css26 textarea {
+  resize: vertical;
+}
+
+.metahtml.css26 .checkbox {
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  margin: 0 5.5px 0 0;
+  line-height: 0;
+  min-height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  background: white;
+  border: 2px solid rgba(0, 0, 0, 0.25);
+  position: relative;
+  transition: 300ms all;
+  border-radius: 2px;
+}
+
+.metahtml.css26 .checkbox svg {
+  width: 100%;
+  opacity: 0;
+  transform: scale(0);
+  transition: 300ms all;
+}
+
+.metahtml.css26 input:hover ~ .checkbox,
+.metahtml.css26 input:focus ~ .checkbox {
+  border-color: rgb(164, 198, 250);
+}
+
+.metahtml.css26 input:checked ~ .checkbox {
+  border-color: rgb(43, 123, 243);
+  background-color: rgb(73, 141, 245);
+}
+
+.metahtml.css26 input:active ~ .checkbox {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.metahtml.css26 input:checked ~ .checkbox svg {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.metahtml.css26 .radio {
+  margin: 0;
+  margin: 0 5.5px 0 0;
+  padding: 0;
+  line-height: 0;
+  width: 22px;
+  height: 22px;
+  min-height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  background: white;
+  border: 2px solid rgba(0, 0, 0, 0.25);
+  position: relative;
+  transition: 300ms all;
+  border-radius: 100px;
+}
+
+.metahtml.css26 .radio:before {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 0;
+  height: 100%;
+  content: '';
+  display: block;
+  background-color: white;
+  border-radius: 100px;
+  opacity: 0;
+  transform: scale(0);
+  transition: 300ms all;
+}
+
+.metahtml.css26 input:hover ~ .radio,
+.metahtml.css26 input:focus ~ .radio {
+  border-color: rgb(164, 198, 250);
+}
+
+.metahtml.css26 input:active ~ .radio {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.metahtml.css26 input:checked ~ .radio {
+  border-color: rgb(43, 123, 243);
+  background-color: rgb(73, 141, 245);
+}
+
+.metahtml.css26 input:checked ~ .radio:before {
+  opacity: 1;
+  transform: scale(0.5);
+}
+
+.metahtml.css26 [cr-field="checkbox-list"] span {
+  vertical-align: middle;
+}
+
+.metahtml.css26 [cr-field="checkbox-list"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.metahtml.css26 [cr-field="checkbox-list"] label + label {
+  margin-top: 7.333333333333333px;
+}
+
+.metahtml.css26 [cr-field="checkbox-visual"] {
+  overflow: hidden;
+}
+
+.metahtml.css26 [cr-field="checkbox-visual"] .items {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -20px;
+  justify-content: space-between;
+}
+
+.metahtml.css26 [cr-field="checkbox-visual"] .item {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 30%;
+}
+
+.metahtml.css26 [cr-field="checkbox-visual"] label {
+  position: relative;
+}
+
+.metahtml.css26 [cr-field="checkbox-visual"] .bgimage {
+  background-size: cover;
+  display: inline-block;
+  background-position: center;
+  border-radius: 50px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+}
+
+.metahtml.css26 [cr-field="checkbox-visual"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.metahtml.css26 [cr-field="checkbox-visual"] .tick {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(73, 141, 245, 0.75);
+  transition: all 300ms;
+  opacity: 0;
+}
+
+.metahtml.css26 [cr-field="checkbox-visual"] .tick svg {
+  opacity: 0;
+  transition: all 300ms;
+  max-width: 26px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.metahtml.css26 [cr-field="checkbox-visual"] .subname {
+  margin: 7px 0;
+  word-wrap: break-word;
+}
+
+.metahtml.css26 [cr-field="checkbox-visual"] input:hover ~ .bgimage .tick,
+.metahtml.css26 [cr-field="checkbox-visual"] input:focus ~ .bgimage .tick {
+  opacity: 0.5;
+}
+
+.metahtml.css26 [cr-field="checkbox-visual"] input:checked ~ .bgimage .tick,
+.metahtml.css26 [cr-field="checkbox-visual"] input:checked ~ .bgimage .tick svg {
+  opacity: 1;
+}
+
+.metahtml.css26 [cr-field="checkbox-input"] span {
+  vertical-align: middle;
+}
+
+.metahtml.css26 [cr-field="checkbox-input"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.metahtml.css26 [cr-field="radio-list"] span {
+  vertical-align: middle;
+}
+
+.metahtml.css26 [cr-field="radio-list"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.metahtml.css26 [cr-field="radio-list"] label + label {
+  margin-top: 7.333333333333333px;
+}
+
+.metahtml.css26 [cr-field="radio-visual"] {
+  overflow: hidden;
+}
+
+.metahtml.css26 [cr-field="radio-visual"] .items {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -20px;
+  justify-content: space-between;
+}
+
+.metahtml.css26 [cr-field="radio-visual"] .item {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 30%;
+}
+
+.metahtml.css26 [cr-field="radio-visual"] label {
+  position: relative;
+}
+
+.metahtml.css26 [cr-field="radio-visual"] .bgimage {
+  background-size: cover;
+  display: inline-block;
+  background-position: center;
+  border-radius: 50px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+}
+
+.metahtml.css26 [cr-field="radio-visual"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.metahtml.css26 [cr-field="radio-visual"] .tick {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(73, 141, 245, 0.75);
+  transition: all 300ms;
+  opacity: 0;
+}
+
+.metahtml.css26 [cr-field="radio-visual"] .tick svg {
+  opacity: 0;
+  transition: all 300ms;
+  max-width: 26px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.metahtml.css26 [cr-field="radio-visual"] .subname {
+  margin: 7px 0;
+  word-wrap: break-word;
+}
+
+.metahtml.css26 [cr-field="radio-visual"] input:hover ~ .bgimage .tick {
+  opacity: 0.5;
+}
+
+.metahtml.css26 [cr-field="radio-visual"] input:checked ~ .bgimage .tick,
+.metahtml.css26 [cr-field="radio-visual"] input:checked ~ .bgimage .tick svg {
+  opacity: 1;
+}
+
+.metahtml.css26 [cr-field="select-menu"] select {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 1;
+  color: black;
+}
+
+.metahtml.css26 [cr-field="select-menu"] .fa {
+  font-size: 20px;
+  line-height: 0;
+  opacity: 0.5;
+  vertical-align: middle;
+}
+
+.metahtml.css26 [cr-field="select-menu"] .flexgrid {
+  display: flex;
+  align-items: center;
+}
+
+.metahtml.css26 [cr-field="select-menu"] .flexgrid .left {
+  flex-grow: 1;
+  min-width: 50%;
+  word-wrap: break-word;
+}
+
+.metahtml.css26 [cr-field="file"] svg {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
+
+.metahtml.css26 [cr-field="file"] span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+.metahtml.css26 [cr-field="file"] input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 0;
+}
+
+.metahtml.css26 [cr-field="file"] .clean {
+  float: right;
+  opacity: 0.5;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.metahtml.css26 [cr-field="file"] .clean:hover {
+  opacity: 1;
+}
+
+.metahtml.css26 [cr-field="file"] .flexgrid {
+  display: flex;
+  align-items: center;
+}
+
+.metahtml.css26 [cr-field="file"] .flexgrid .center {
+  flex-grow: 1;
+  min-width: 50%;
+  word-wrap: break-word;
+}
+
+.metahtml.css26 [cr-field="result"] .flexgrid.align-sides {
+  display: flex;
+  align-items: center;
+}
+
+.metahtml.css26 [cr-field="result"] .flexgrid.align-sides .left .name {
+  margin-bottom: 0;
+}
+
+.metahtml.css26 [cr-field="result"] .flexgrid.align-center .left {
+  text-align: center;
+}
+
+.metahtml.css26 [cr-field="result"] .flexgrid.align-right .left {
+  text-align: right;
+}
+
+.metahtml.css26 [cr-field="result"] .flexgrid .right {
+  flex-grow: 1;
+  min-width: 25%;
+  word-wrap: break-word;
+  text-align: right;
+  font-size: 100%;
+}
+
+.metahtml.css26 [cr-field="result"] .flexgrid.align-left .right {
+  text-align: left;
+}
+
+.metahtml.css26 [cr-field="result"] .flexgrid.align-center .right {
+  text-align: center;
+}
+
+.metahtml.css26 [cr-field="result"] .flexgrid.align-right .right {
+  text-align: right;
+}
+
+.metahtml.css26 [cr-field="privacy-button"] .open {
+  text-align: center;
+  opacity: 0.5;
+  font-size: 80%;
+  cursor: pointer;
+}
+
+.metahtml.css26 [cr-field="privacy-button"] .open a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.metahtml.css26 [cr-field="privacy-checkbox"] {
+  font-size: 80%;
+}
+
+.metahtml.css26 [cr-field="privacy-checkbox"] span {
+  vertical-align: middle;
+}
+
+.metahtml.css26 [cr-field="privacy-checkbox"] a {
+  vertical-align: middle;
+  text-decoration: none;
+  border-bottom-width: 1px;
+  border-bottom-style: dashed;
+  color: inherit;
+  cursor: pointer;
+}
+
+.metahtml.css26 [cr-field="privacy-checkbox"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.metahtml.css26 [cr-field="privacy-text"] {
+  font-size: 80%;
+  text-align: center;
+}
+
+.metahtml.css26 [cr-field="privacy-text"] a {
+  text-decoration: none;
+  border-bottom-width: 1px;
+  border-bottom-style: dashed;
+  color: inherit;
+  cursor: pointer;
+}
+
+.metahtml.css26 [cr-field="hidden"] {
+  opacity: 0.25;
+}
+.btn.css27 { background-color: rgb(73, 141, 245);border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;border-style: solid;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px;border-right-width: 0px;border-color: rgb(14, 104, 241);padding-top: 14px;padding-bottom: 14px;font-size: 16px;color: rgb(255, 255, 255); } .btn.css27:hover, .btn.css27.hover { background-color: rgb(43, 123, 243);border-color: rgb(11, 83, 193);color: rgb(255, 255, 255); } .btn.css27:active, .btn.css27.active { background-color: rgb(16, 106, 242);border-color: rgb(12, 93, 217);color: rgb(255, 255, 255); } .btn.css27:before {  } .btn.css27:active:before, .btn.css27.active:before { background-color: rgb(16, 106, 242); }
+.node.css28  { color: #333; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css28 a { color: rgb(25, 142, 230) }
+
+.node.css29  { color: #FFF; padding-top: 80px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css29 a { color: rgb(25, 142, 230) }
+
+.node.css30 > .wrapper1 { background-position: center center; background-size: cover; background-repeat: no-repeat }
+.node.css30 > .wrapper1 > .wrapper2 { background-color: rgba(0,0,0,0.74) }
+.node.css30  { color: #FFF }
+.node.css30  > .padding_top { padding-top: 89px }
+.screen-xs .node.css30  > .padding_top { padding-top: 50px!important }
+.node.css30  > .padding_bottom { padding-bottom: 130px }
+.node.css30 a { color: rgb(25, 142, 230) }
+
+.node.css31  { color: #333; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.screen-xs .node.css31  { padding-bottom: 40px!important }
+.node.css31 a { color: rgb(230, 25, 25) }
+
+.node.css32  { color: #333; padding-top: 5px; padding-bottom: 4px; padding-left: 5px; padding-right: 19px }
+.node.css32 a { color: rgb(230, 25, 25) }
+
+.textable.css33  { text-align: left; font-family: "TTNorms Medium"; font-size: 40px; line-height: 1; letter-spacing: 0em; opacity: 1 }
+.screen-sm .textable.css33  { font-size: 32px!important }
+.screen-xs .textable.css33  { text-align: center!important; font-size: 32px!important }
+
+.node.css34  { color: #333; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 138px }
+.screen-sm .node.css34  { padding-right: 5px!important }
+.screen-xs .node.css34  { padding-right: 5px!important }
+.node.css34 a { color: rgb(230, 25, 25) }
+
+.textable.css35  { text-align: left; font-family: "TTNorms Regular"; font-size: 16px; line-height: 1.7; letter-spacing: 0em; opacity: 1 }
+.screen-xs .textable.css35  { text-align: center!important }
+
+.node.css36  { color: #333; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css36 a { color: rgb(230, 25, 25) }
+
+.node.css37 > .wrapper1 { background-color: rgb(245, 245, 245) }
+.node.css37  { color: #333 }
+.node.css37  > .padding_top { padding-top: 15px }
+.node.css37  > .padding_bottom { padding-bottom: 15px }
+.node.css37 a { color: rgb(230, 25, 25) }
+
+.node.css38  { color: #333; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css38 a { color: rgb(25, 168, 230) }
+
+.textable.css39  { text-align: center; font-family: "TTNorms Medium"; font-size: 48px; line-height: 1.1; letter-spacing: 0em; opacity: 1 }
+.screen-xs .textable.css39  { text-align: center!important; font-size: 38px!important }
+
+.node.css40  { color: #333; padding-top: 25px; padding-bottom: 50px; padding-left: 5px; padding-right: 5px }
+.node.css40 a { color: rgb(25, 168, 230) }
+
+.textable.css41  { text-align: center; font-family: "TTNorms Regular"; font-size: 16px; line-height: 1.4; letter-spacing: 0em; opacity: 0.5 }
+.screen-xs .textable.css41  { text-align: center!important }
+
+.node.css42  { color: #333; padding-top: 5px; padding-bottom: 30px; padding-left: 5px; padding-right: 5px }
+.node.css42 a { color: rgb(225, 25, 230) }
+
+.textable.css43  { text-align: left; font-family: "TTNorms Medium"; font-size: 28px; line-height: 1.1; letter-spacing: 0em; opacity: 1 }
+.screen-xs .textable.css43  { text-align: center!important }
+
+.node.css44  { color: #333; padding-top: 5px; padding-bottom: 0px; padding-left: 0px; padding-right: 5px }
+.node.css44 a { color: rgb(225, 25, 230) }
+
+.textable.css45  { text-align: left; font-family: "TTNorms Regular"; font-size: 16px; line-height: 1.4; letter-spacing: 0em; opacity: 1 }
+.screen-xs .textable.css45  { text-align: center!important }
+
+.node.css46  { color: #333; padding-top: 5px; padding-bottom: 0px; padding-left: 5px; padding-right: 0px }
+.node.css46 a { color: rgb(225, 25, 230) }
+
+.textable.css47  { text-align: right; font-family: "TTNorms Regular"; font-size: 16px; line-height: 1.4; letter-spacing: 0em; opacity: 1 }
+.screen-xs .textable.css47  { text-align: center!important }
+
+.node.css48  { color: #333; padding-top: 5px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px }
+.node.css48 a { color: rgb(225, 25, 230) }
+
+.node.css49  { color: #333; padding-top: 0px; padding-bottom: 5px; padding-left: 0px; padding-right: 0px }
+.node.css49 a { color: rgb(225, 25, 230) }
+
+.btn.css50 { background-color: rgb(73, 141, 245);border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;border-style: solid;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px;border-right-width: 0px;border-color: rgb(14, 104, 241);padding-top: 8px;padding-bottom: 8px;font-size: 14px;color: rgb(255, 255, 255); } .btn.css50:hover, .btn.css50.hover { background-color: rgb(43, 123, 243);border-color: rgb(11, 83, 193);color: rgb(255, 255, 255); } .btn.css50:active, .btn.css50.active { background-color: rgb(16, 106, 242);border-color: rgb(12, 93, 217);color: rgb(255, 255, 255); } .btn.css50:before {  } .btn.css50:active:before, .btn.css50.active:before { background-color: rgb(16, 106, 242); }
+.node.css51  { color: #FFF; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css51 a { color: rgb(225, 25, 230) }
+
+.node.css52  { color: #333; padding-top: 5px; padding-bottom: 5px; padding-left: 10px; padding-right: 10px }
+.node.css52 a { color: rgb(225, 25, 230) }
+
+.node.css53  { color: #333; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css53 a { color: rgb(225, 25, 230) }
+
+.node.css54  { color: #333; padding-top: 20px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css54 a { color: rgb(225, 25, 230) }
+
+.node.css55 > .wrapper1 { background-color: rgb(255, 255, 255); border-radius: 5px }
+.node.css55  { color: #333; padding-top: 50px; padding-bottom: 35px; padding-left: 70px; padding-right: 70px }
+.screen-xs .node.css55  { padding-left: 15px!important; padding-right: 15px!important }
+.node.css55 a { color: rgb(225, 25, 230) }
+
+.node.css56 > .wrapper1 { background-position: center center; background-size: auto; background-repeat: repeat }
+.node.css56 > .wrapper1 > .wrapper2 { background-color: rgba(0,0,0,0) }
+.node.css56  { color: #333 }
+.node.css56  > .padding_top { padding-top: 85px }
+.node.css56  > .padding_bottom { padding-bottom: 130px }
+.node.css56 a { color: rgb(25, 168, 230) }
+
+.node.css57 .s-elements-grid { margin-left: -15px; margin-right: -15px }
+.node.css57 .s-elements-grid__cell.cell-0 { width: 50%; padding-left: 15px; padding-right: 0 }
+.node.css57 .s-elements-grid__cell.cell-0 > .s-elements-grid__cellwrapper { padding-top: 15px; padding-bottom: 15px; padding-left: 0; padding-right: 15px }
+.node.css57 .s-elements-grid__cell.cell-1 { width: 50%; padding-left: 0; padding-right: 15px }
+.node.css57 .s-elements-grid__cell.cell-1 > .s-elements-grid__cellwrapper { padding-top: 15px; padding-bottom: 15px; padding-left: 15px; padding-right: 0 }
+.node.css57 .s-elements-grid__cell.cell-2 { width: 50%; padding-left: 15px; padding-right: 0 }
+.node.css57 .s-elements-grid__cell.cell-2 > .s-elements-grid__cellwrapper { padding-top: 15px; padding-bottom: 15px; padding-left: 0; padding-right: 15px }
+.screen-xs .node.css57 .s-elements-grid__cell.cell-0 { width: 100%!important; padding-left: 15px!important; padding-right: 15px!important }
+.screen-xs .node.css57 .s-elements-grid__cell.cell-0 > .s-elements-grid__cellwrapper { padding-top: 15px!important; padding-bottom: 15px!important; padding-left: 0!important; padding-right: 0!important }
+.screen-xs .node.css57 .s-elements-grid__cell.cell-1 { width: 100%!important; padding-left: 15px!important; padding-right: 15px!important }
+.screen-xs .node.css57 .s-elements-grid__cell.cell-1 > .s-elements-grid__cellwrapper { padding-top: 15px!important; padding-bottom: 15px!important; padding-left: 0!important; padding-right: 0!important }
+.screen-xs .node.css57 .s-elements-grid__cell.cell-2 { width: 100%!important; padding-left: 15px!important; padding-right: 15px!important }
+.screen-xs .node.css57 .s-elements-grid__cell.cell-2 > .s-elements-grid__cellwrapper { padding-top: 15px!important; padding-bottom: 15px!important; padding-left: 0!important; padding-right: 0!important }
+
+.node.css58  { color: #333; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css58 a { color: rgb(25, 106, 230) }
+
+.node.css59  { color: #333; padding-top: 25px; padding-bottom: 50px; padding-left: 5px; padding-right: 5px }
+.node.css59 a { color: rgb(25, 106, 230) }
+
+.textable.css60  { text-align: center; font-family: "TTNorms Regular"; font-size: 18px; line-height: 1.4; letter-spacing: 0em; opacity: 1 }
+.screen-xs .textable.css60  { text-align: center!important }
+
+.node.css61  { color: #FFF; padding-top: 40px; padding-bottom: 16px; padding-left: 5px; padding-right: 5px }
+.node.css61 a { color: rgb(25, 106, 230) }
+
+.node.css62  { color: #FFF; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css62 a { color: rgb(25, 106, 230) }
+
+.textable.css63  { text-align: left; font-family: "TTNorms Regular"; font-size: 16px; line-height: 1.5; letter-spacing: 0em; opacity: 1 }
+.screen-xs .textable.css63  { text-align: center!important }
+
+.node.css64  { color: #333; padding-top: 5px; padding-bottom: 5px; padding-left: 10px; padding-right: 10px }
+.node.css64 a { color: rgb(25, 106, 230) }
+
+.node.css65  { color: #FFF; padding-top: 20px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css65 a { color: rgb(25, 106, 230) }
+
+.node.css66 > .wrapper1 { background-position: center center; background-size: cover; background-repeat: repeat; border-radius: 6px }
+.node.css66 > .wrapper1 > .wrapper2 { background-color: rgba(2, 13, 30, 0.75) }
+.node.css66  { color: #FFF; padding-top: 37px; padding-bottom: 25px; padding-left: 30px; padding-right: 30px }
+.node.css66 a { color: rgb(25, 106, 230) }
+
+.node.css67 > .wrapper1 { background-position: center center; background-size: cover; background-repeat: repeat; border-radius: 6px }
+.node.css67 > .wrapper1 > .wrapper2 { background-color: rgba(43, 47, 52, 0.75) }
+.node.css67  { color: #FFF; padding-top: 37px; padding-bottom: 25px; padding-left: 30px; padding-right: 30px }
+.node.css67 a { color: rgb(25, 106, 230) }
+
+.node.css68 > .wrapper1 { background-color: white }
+.node.css68  { color: #333 }
+.node.css68  > .padding_top { padding-top: 60px }
+.node.css68  > .padding_bottom { padding-bottom: 90px }
+.node.css68 a { color: rgb(25, 106, 230) }
+
+.node.css69 .s-elements-grid { margin-left: -15px; margin-right: -15px }
+.node.css69 .s-elements-grid__cell.cell-0 { width: 50%; padding-left: 15px; padding-right: 0 }
+.node.css69 .s-elements-grid__cell.cell-0 > .s-elements-grid__cellwrapper { padding-top: 17.5px; padding-bottom: 17.5px; padding-left: 0; padding-right: 15px }
+.node.css69 .s-elements-grid__cell.cell-1 { width: 50%; padding-left: 0; padding-right: 15px }
+.node.css69 .s-elements-grid__cell.cell-1 > .s-elements-grid__cellwrapper { padding-top: 17.5px; padding-bottom: 17.5px; padding-left: 15px; padding-right: 0 }
+.node.css69 .s-elements-grid__cell.cell-2 { width: 50%; padding-left: 15px; padding-right: 0 }
+.node.css69 .s-elements-grid__cell.cell-2 > .s-elements-grid__cellwrapper { padding-top: 17.5px; padding-bottom: 17.5px; padding-left: 0; padding-right: 15px }
+.node.css69 .s-elements-grid__cell.cell-3 { width: 50%; padding-left: 0; padding-right: 15px }
+.node.css69 .s-elements-grid__cell.cell-3 > .s-elements-grid__cellwrapper { padding-top: 17.5px; padding-bottom: 17.5px; padding-left: 15px; padding-right: 0 }
+.node.css69 .s-elements-grid__cell.cell-4 { width: 50%; padding-left: 15px; padding-right: 0 }
+.node.css69 .s-elements-grid__cell.cell-4 > .s-elements-grid__cellwrapper { padding-top: 17.5px; padding-bottom: 17.5px; padding-left: 0; padding-right: 15px }
+.screen-xs .node.css69 .s-elements-grid__cell.cell-0 { width: 100%!important; padding-left: 15px!important; padding-right: 15px!important }
+.screen-xs .node.css69 .s-elements-grid__cell.cell-0 > .s-elements-grid__cellwrapper { padding-top: 17.5px!important; padding-bottom: 17.5px!important; padding-left: 0!important; padding-right: 0!important }
+.screen-xs .node.css69 .s-elements-grid__cell.cell-1 { width: 100%!important; padding-left: 15px!important; padding-right: 15px!important }
+.screen-xs .node.css69 .s-elements-grid__cell.cell-1 > .s-elements-grid__cellwrapper { padding-top: 17.5px!important; padding-bottom: 17.5px!important; padding-left: 0!important; padding-right: 0!important }
+.screen-xs .node.css69 .s-elements-grid__cell.cell-2 { width: 100%!important; padding-left: 15px!important; padding-right: 15px!important }
+.screen-xs .node.css69 .s-elements-grid__cell.cell-2 > .s-elements-grid__cellwrapper { padding-top: 17.5px!important; padding-bottom: 17.5px!important; padding-left: 0!important; padding-right: 0!important }
+.screen-xs .node.css69 .s-elements-grid__cell.cell-3 { width: 100%!important; padding-left: 15px!important; padding-right: 15px!important }
+.screen-xs .node.css69 .s-elements-grid__cell.cell-3 > .s-elements-grid__cellwrapper { padding-top: 17.5px!important; padding-bottom: 17.5px!important; padding-left: 0!important; padding-right: 0!important }
+.screen-xs .node.css69 .s-elements-grid__cell.cell-4 { width: 100%!important; padding-left: 15px!important; padding-right: 15px!important }
+.screen-xs .node.css69 .s-elements-grid__cell.cell-4 > .s-elements-grid__cellwrapper { padding-top: 17.5px!important; padding-bottom: 17.5px!important; padding-left: 0!important; padding-right: 0!important }
+
+.node.css70  { color: #333; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.screen-xs .node.css70  { padding-bottom: 40px!important }
+.node.css70 a { color: rgb(25, 168, 230) }
+
+.node.css71  { color: #333; padding-top: 5px; padding-bottom: 22px; padding-left: 5px; padding-right: 19px }
+.node.css71 a { color: rgb(25, 168, 230) }
+
+.textable.css72  { text-align: left; font-family: "TTNorms Medium"; font-size: 28px; line-height: 1.1; letter-spacing: 0em; opacity: 1 }
+.screen-sm .textable.css72  { font-size: 22px!important }
+.screen-xs .textable.css72  { text-align: center!important; font-size: 22px!important }
+
+.node.css73  { color: #333; padding-top: 5px; padding-bottom: 0px; padding-left: 5px; padding-right: 138px }
+.screen-sm .node.css73  { padding-right: 5px!important }
+.screen-xs .node.css73  { padding-right: 5px!important }
+.node.css73 a { color: rgb(25, 168, 230) }
+
+.node.css74  { color: #FFF; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css74 a { color: rgb(25, 168, 230) }
+
+.node.css75  { color: #333; padding-top: 5px; padding-bottom: 5px; padding-left: 10px; padding-right: 10px }
+.node.css75 a { color: rgb(25, 168, 230) }
+
+.node.css76 > .wrapper1 { background-position: center center; background-size: auto; background-repeat: repeat }
+.node.css76 > .wrapper1 > .wrapper2 { background-color: rgba(0,0,0,0) }
+.node.css76  { color: #333 }
+.node.css76  > .padding_top { padding-top: 55px }
+.node.css76  > .padding_bottom { padding-bottom: 55px }
+.node.css76 a { color: rgb(25, 168, 230) }
+
+.node.css77  { color: #333; padding-top: 5px; padding-bottom: 23px; padding-left: 5px; padding-right: 5px }
+.node.css77 a { color: rgb(25, 106, 230) }
+
+.node.css78 .bgimage { height: 400px }
+.node.css78 img.selectable { max-height: 400px }
+.node.css78 .proportions { width: 300px; padding-top: 400px }
+
+.node.css79 > .wrapper1 { background-color: white }
+.node.css79  { color: #333 }
+.node.css79  > .padding_top { padding-top: 60px }
+.node.css79  > .padding_bottom { padding-bottom: 63px }
+.node.css79 a { color: rgb(25, 106, 230) }
+
+.node.css80 .s-elements-grid { margin-left: 0px; margin-right: 0px }
+.node.css80 .s-elements-grid__cell.cell-0 { width: 50%; padding-left: 0px; padding-right: 0 }
+.node.css80 .s-elements-grid__cell.cell-0 > .s-elements-grid__cellwrapper { padding-top: 0px; padding-bottom: 0px; padding-left: 0; padding-right: 0px }
+.node.css80 .s-elements-grid__cell.cell-1 { width: 50%; padding-left: 0; padding-right: 0px }
+.node.css80 .s-elements-grid__cell.cell-1 > .s-elements-grid__cellwrapper { padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0 }
+.screen-xs .node.css80 .s-elements-grid__cell.cell-0 { width: 100%!important; padding-left: 0px!important; padding-right: 0px!important }
+.screen-xs .node.css80 .s-elements-grid__cell.cell-0 > .s-elements-grid__cellwrapper { padding-top: 0px!important; padding-bottom: 0px!important; padding-left: 0!important; padding-right: 0!important }
+.screen-xs .node.css80 .s-elements-grid__cell.cell-1 { width: 100%!important; padding-left: 0px!important; padding-right: 0px!important }
+.screen-xs .node.css80 .s-elements-grid__cell.cell-1 > .s-elements-grid__cellwrapper { padding-top: 0px!important; padding-bottom: 0px!important; padding-left: 0!important; padding-right: 0!important }
+
+.node.css81  { color: #333; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px }
+.node.css81 a { color: rgb(225, 25, 230) }
+
+.node.css82 > .wrapper1 { background-color: rgb(255, 255, 255) }
+.node.css82  { color: #333; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px }
+.node.css82 a { color: rgb(225, 25, 230) }
+
+.node.css83 > .wrapper1 { background-position: center center; background-size: auto; background-repeat: repeat }
+.node.css83 > .wrapper1 > .wrapper2 { background-color: rgba(0,0,0,0) }
+.node.css83  { color: #333 }
+.node.css83  > .padding_top { padding-top: 60px }
+.node.css83  > .padding_bottom { padding-bottom: 90px }
+.node.css83 a { color: rgb(25, 168, 230) }
+
+.node.css84 .s-elements-grid { margin-left: -10px; margin-right: -10px }
+.node.css84 .s-elements-grid__cell.cell-0 { width: 25%; padding-left: 10px; padding-right: 0 }
+.node.css84 .s-elements-grid__cell.cell-0 > .s-elements-grid__cellwrapper { padding-top: 10px; padding-bottom: 10px; padding-left: 0; padding-right: 10px }
+.node.css84 .s-elements-grid__cell.cell-1 { width: 25%; padding-left: 0; padding-right: 0 }
+.node.css84 .s-elements-grid__cell.cell-1 > .s-elements-grid__cellwrapper { padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px }
+.node.css84 .s-elements-grid__cell.cell-2 { width: 25%; padding-left: 0; padding-right: 0 }
+.node.css84 .s-elements-grid__cell.cell-2 > .s-elements-grid__cellwrapper { padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px }
+.node.css84 .s-elements-grid__cell.cell-3 { width: 25%; padding-left: 0; padding-right: 10px }
+.node.css84 .s-elements-grid__cell.cell-3 > .s-elements-grid__cellwrapper { padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 0 }
+.screen-sm .node.css84 .s-elements-grid__cell.cell-0 { width: 50%!important; padding-left: 10px!important; padding-right: 0!important }
+.screen-sm .node.css84 .s-elements-grid__cell.cell-0 > .s-elements-grid__cellwrapper { padding-top: 10px!important; padding-bottom: 10px!important; padding-left: 0!important; padding-right: 10px!important }
+.screen-sm .node.css84 .s-elements-grid__cell.cell-1 { width: 50%!important; padding-left: 0!important; padding-right: 10px!important }
+.screen-sm .node.css84 .s-elements-grid__cell.cell-1 > .s-elements-grid__cellwrapper { padding-top: 10px!important; padding-bottom: 10px!important; padding-left: 10px!important; padding-right: 0!important }
+.screen-sm .node.css84 .s-elements-grid__cell.cell-2 { width: 50%!important; padding-left: 10px!important; padding-right: 0!important }
+.screen-sm .node.css84 .s-elements-grid__cell.cell-2 > .s-elements-grid__cellwrapper { padding-top: 10px!important; padding-bottom: 10px!important; padding-left: 0!important; padding-right: 10px!important }
+.screen-sm .node.css84 .s-elements-grid__cell.cell-3 { width: 50%!important; padding-left: 0!important; padding-right: 10px!important }
+.screen-sm .node.css84 .s-elements-grid__cell.cell-3 > .s-elements-grid__cellwrapper { padding-top: 10px!important; padding-bottom: 10px!important; padding-left: 10px!important; padding-right: 0!important }
+.screen-xs .node.css84 .s-elements-grid__cell.cell-0 { width: 100%!important; padding-left: 10px!important; padding-right: 10px!important }
+.screen-xs .node.css84 .s-elements-grid__cell.cell-0 > .s-elements-grid__cellwrapper { padding-top: 10px!important; padding-bottom: 10px!important; padding-left: 0!important; padding-right: 0!important }
+.screen-xs .node.css84 .s-elements-grid__cell.cell-1 { width: 100%!important; padding-left: 10px!important; padding-right: 10px!important }
+.screen-xs .node.css84 .s-elements-grid__cell.cell-1 > .s-elements-grid__cellwrapper { padding-top: 10px!important; padding-bottom: 10px!important; padding-left: 0!important; padding-right: 0!important }
+.screen-xs .node.css84 .s-elements-grid__cell.cell-2 { width: 100%!important; padding-left: 10px!important; padding-right: 10px!important }
+.screen-xs .node.css84 .s-elements-grid__cell.cell-2 > .s-elements-grid__cellwrapper { padding-top: 10px!important; padding-bottom: 10px!important; padding-left: 0!important; padding-right: 0!important }
+.screen-xs .node.css84 .s-elements-grid__cell.cell-3 { width: 100%!important; padding-left: 10px!important; padding-right: 10px!important }
+.screen-xs .node.css84 .s-elements-grid__cell.cell-3 > .s-elements-grid__cellwrapper { padding-top: 10px!important; padding-bottom: 10px!important; padding-left: 0!important; padding-right: 0!important }
+
+.node.css85  { color: #333; padding-top: 25px; padding-bottom: 50px; padding-left: 5px; padding-right: 5px }
+.node.css85 a { color: rgb(230, 25, 25) }
+
+.metahtml.css86 .number {
+  color: rgb(0, 0, 0);
+  opacity: 0.1;
+  font-family: TTNorms Regular;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  font-size: 27px;
+  line-height: 1;
+}
+.node.css87  { color: #333; padding-top: 5px; padding-bottom: 14px; padding-left: 5px; padding-right: 5px }
+.node.css87 a { color: rgb(230, 25, 25) }
+
+.node.css88  { color: #333; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px }
+.node.css88 a { color: rgb(25, 88, 230) }
+
+.node.css89 .bgimage { height: 270px }
+
+.node.css90  { color: #333; padding-top: 27px; padding-bottom: 5px; padding-left: 16px; padding-right: 16px }
+.node.css90 a { color: rgb(25, 88, 230) }
+
+.textable.css91  { text-align: left; font-family: "TTNorms Medium"; font-size: 14px; line-height: 1.4857142857142858; letter-spacing: 0.05714285714285715em; opacity: 1 }
+.screen-xs .textable.css91  { text-align: center!important }
+
+.node.css92  { color: #333; padding-top: 5px; padding-bottom: 5px; padding-left: 16px; padding-right: 16px }
+.node.css92 a { color: rgb(25, 88, 230) }
+
+.textable.css93  { text-align: left; font-family: "TTNorms Regular"; font-size: 14px; line-height: 1.5999999999999999; letter-spacing: 0em; opacity: 0.6 }
+.screen-xs .textable.css93  { text-align: center!important }
+
+.node.css94 > .wrapper1 { background-color: rgb(255, 255, 255); border-radius: 5px; box-shadow:  0px 10px 29px 2px rgba(0, 0, 0, 0.11) }
+.node.css94  { color: #333; padding-top: 0px; padding-bottom: 26px; padding-left: 0px; padding-right: 0px }
+.screen-sm .node.css94  { padding-left: 12px!important; padding-right: 12px!important }
+.node.css94 a { color: rgb(25, 88, 230) }
+
+.node.css95  { color: #333; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css95 > .wrapper1 { border-radius: 7px }
+.node.css95 a { color: rgb(230, 25, 25) }
+
+.node.css96 > .wrapper1 { background-color: rgb(255, 255, 255); border-radius: 5px; box-shadow:  0px 10px 29px 2px rgba(0, 0, 0, 0.11) }
+.node.css96  { color: #333; padding-top: 0px; padding-bottom: 70px; padding-left: 0px; padding-right: 0px }
+.screen-sm .node.css96  { padding-left: 12px!important; padding-right: 12px!important }
+.node.css96 a { color: rgb(25, 88, 230) }
+
+.node.css97 > .wrapper1 { background-color: rgb(255, 255, 255); border-radius: 5px; box-shadow:  0px 10px 29px 2px rgba(0, 0, 0, 0.11) }
+.node.css97  { color: #333; padding-top: 0px; padding-bottom: 48px; padding-left: 0px; padding-right: 0px }
+.screen-sm .node.css97  { padding-left: 12px!important; padding-right: 12px!important }
+.node.css97 a { color: rgb(25, 88, 230) }
+
+.node.css98 > .wrapper1 { background-color: rgb(255, 255, 255) }
+.node.css98  { color: #333 }
+.node.css98  > .padding_top { padding-top: 60px }
+.node.css98  > .padding_bottom { padding-bottom: 90px }
+.node.css98 a { color: rgb(230, 25, 25) }
+
+.node.css99 .s-elements-grid { margin-left: -10px; margin-right: -10px }
+.node.css99 .s-elements-grid__cell.cell-0 { width: 25%; padding-left: 10px; padding-right: 0 }
+.node.css99 .s-elements-grid__cell.cell-0 > .s-elements-grid__cellwrapper { padding-top: 10px; padding-bottom: 10px; padding-left: 0; padding-right: 10px }
+.node.css99 .s-elements-grid__cell.cell-1 { width: 25%; padding-left: 0; padding-right: 0 }
+.node.css99 .s-elements-grid__cell.cell-1 > .s-elements-grid__cellwrapper { padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px }
+.node.css99 .s-elements-grid__cell.cell-2 { width: 25%; padding-left: 0; padding-right: 0 }
+.node.css99 .s-elements-grid__cell.cell-2 > .s-elements-grid__cellwrapper { padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px }
+.node.css99 .s-elements-grid__cell.cell-3 { width: 25%; padding-left: 0; padding-right: 10px }
+.node.css99 .s-elements-grid__cell.cell-3 > .s-elements-grid__cellwrapper { padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 0 }
+.screen-xs .node.css99 .s-elements-grid__cell.cell-0 { width: 100%!important; padding-left: 10px!important; padding-right: 10px!important }
+.screen-xs .node.css99 .s-elements-grid__cell.cell-0 > .s-elements-grid__cellwrapper { padding-top: 10px!important; padding-bottom: 10px!important; padding-left: 0!important; padding-right: 0!important }
+.screen-xs .node.css99 .s-elements-grid__cell.cell-1 { width: 100%!important; padding-left: 10px!important; padding-right: 10px!important }
+.screen-xs .node.css99 .s-elements-grid__cell.cell-1 > .s-elements-grid__cellwrapper { padding-top: 10px!important; padding-bottom: 10px!important; padding-left: 0!important; padding-right: 0!important }
+.screen-xs .node.css99 .s-elements-grid__cell.cell-2 { width: 100%!important; padding-left: 10px!important; padding-right: 10px!important }
+.screen-xs .node.css99 .s-elements-grid__cell.cell-2 > .s-elements-grid__cellwrapper { padding-top: 10px!important; padding-bottom: 10px!important; padding-left: 0!important; padding-right: 0!important }
+.screen-xs .node.css99 .s-elements-grid__cell.cell-3 { width: 100%!important; padding-left: 10px!important; padding-right: 10px!important }
+.screen-xs .node.css99 .s-elements-grid__cell.cell-3 > .s-elements-grid__cellwrapper { padding-top: 10px!important; padding-bottom: 10px!important; padding-left: 0!important; padding-right: 0!important }
+
+.node.css100  { color: #333; padding-top: 5px; padding-bottom: 0px; padding-left: 5px; padding-right: 5px }
+.node.css100 a { color: rgb(25, 168, 230) }
+
+.node.css101  { color: #333; padding-top: 5px; padding-bottom: 25px; padding-left: 5px; padding-right: 5px }
+.node.css101 > .wrapper1 { border-radius: 27px }
+.node.css101 a { color: rgb(25, 168, 230) }
+
+.node.css102  { color: #333; padding-top: 5px; padding-bottom: 25px; padding-left: 5px; padding-right: 5px }
+.node.css102 > .wrapper1 { border-radius: 26px }
+.node.css102 a { color: rgb(25, 168, 230) }
+
+.node.css103  { color: #333; padding-top: 5px; padding-bottom: 5px; padding-left: 0px; padding-right: 0px }
+.node.css103 a { color: rgb(25, 168, 230) }
+
+.node.css104  { color: #333; padding-top: 22px; padding-bottom: 2px; padding-left: 5px; padding-right: 5px }
+.node.css104 a { color: rgb(25, 106, 230) }
+
+.textable.css105  { text-align: center; font-family: "TTNorms Medium"; font-size: 14px; line-height: 1.7142857142857142; letter-spacing: 0.1142857142857143em; color: rgb(73, 141, 245); opacity: 1 }
+.screen-xs .textable.css105  { text-align: center!important }
+
+.node.css106  { color: #333; padding-top: 2px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css106 a { color: rgb(25, 106, 230) }
+
+.textable.css107  { text-align: center; font-family: "TTNorms Regular"; font-size: 14px; line-height: 1.7142857142857142; letter-spacing: 0em; opacity: 1 }
+.screen-xs .textable.css107  { text-align: center!important }
+
+.node.css108  { color: #333; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css108 > .wrapper1 { border-radius: 4px }
+.node.css108 a { color: rgb(25, 106, 230) }
+
+.node.css109 .s-elements-grid { margin-left: -15px; margin-right: -15px }
+.node.css109 .s-elements-grid__cell.cell-0 { width: 20%; padding-left: 15px; padding-right: 0 }
+.node.css109 .s-elements-grid__cell.cell-0 > .s-elements-grid__cellwrapper { padding-top: 0px; padding-bottom: 0px; padding-left: 0; padding-right: 15px }
+.node.css109 .s-elements-grid__cell.cell-1 { width: 20%; padding-left: 0; padding-right: 0 }
+.node.css109 .s-elements-grid__cell.cell-1 > .s-elements-grid__cellwrapper { padding-top: 0px; padding-bottom: 0px; padding-left: 15px; padding-right: 15px }
+.node.css109 .s-elements-grid__cell.cell-2 { width: 20%; padding-left: 0; padding-right: 0 }
+.node.css109 .s-elements-grid__cell.cell-2 > .s-elements-grid__cellwrapper { padding-top: 0px; padding-bottom: 0px; padding-left: 15px; padding-right: 15px }
+.node.css109 .s-elements-grid__cell.cell-3 { width: 20%; padding-left: 0; padding-right: 0 }
+.node.css109 .s-elements-grid__cell.cell-3 > .s-elements-grid__cellwrapper { padding-top: 0px; padding-bottom: 0px; padding-left: 15px; padding-right: 15px }
+.screen-xs .node.css109 .s-elements-grid__cell.cell-0 { width: 100%!important; padding-left: 15px!important; padding-right: 15px!important }
+.screen-xs .node.css109 .s-elements-grid__cell.cell-0 > .s-elements-grid__cellwrapper { padding-top: 0px!important; padding-bottom: 0px!important; padding-left: 0!important; padding-right: 0!important }
+.screen-xs .node.css109 .s-elements-grid__cell.cell-1 { width: 100%!important; padding-left: 15px!important; padding-right: 15px!important }
+.screen-xs .node.css109 .s-elements-grid__cell.cell-1 > .s-elements-grid__cellwrapper { padding-top: 0px!important; padding-bottom: 0px!important; padding-left: 0!important; padding-right: 0!important }
+.screen-xs .node.css109 .s-elements-grid__cell.cell-2 { width: 100%!important; padding-left: 15px!important; padding-right: 15px!important }
+.screen-xs .node.css109 .s-elements-grid__cell.cell-2 > .s-elements-grid__cellwrapper { padding-top: 0px!important; padding-bottom: 0px!important; padding-left: 0!important; padding-right: 0!important }
+.screen-xs .node.css109 .s-elements-grid__cell.cell-3 { width: 100%!important; padding-left: 15px!important; padding-right: 15px!important }
+.screen-xs .node.css109 .s-elements-grid__cell.cell-3 > .s-elements-grid__cellwrapper { padding-top: 0px!important; padding-bottom: 0px!important; padding-left: 0!important; padding-right: 0!important }
+
+.textable.css110  { text-align: center; font-family: "TTNorms Regular"; font-size: 18px; line-height: 1.2; letter-spacing: 0em; opacity: 1 }
+.screen-xs .textable.css110  { text-align: center!important }
+
+.metahtml.css111 .spoiler1 {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(230, 230, 230);
+  color: rgb(25, 25, 25);
+  padding: 0 25px;
+  margin-left: 15px;
+  position: relative;
+}
+
+.metahtml.css111 .spoiler1-header {
+  padding: 15px 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.metahtml.css111 .spoiler1-toggle {
+  position: absolute;
+  top: 10px;
+  left: -17px;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  cursor: pointer;
+  background-color: rgb(73, 141, 245);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  border: 2px solid rgb(255, 255, 255);
+  transition: transform 0.4s;
+}
+
+.metahtml.css111 .spoiler1-toggle i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.4s;
+  opacity: 1;
+}
+
+.metahtml.css111 .spoiler1-toggle.is-collapsed {
+  transform: rotate(-180deg);
+}
+
+.metahtml.css111 .spoiler1-toggle.is-collapsed i.fa-minus {
+  opacity: 0;
+}
+
+.metahtml.css111 .spoiler1-toggle.is-expanded i.fa-plus {
+  opacity: 0;
+}
+
+.metahtml.css111 .spoiler1-container {
+  padding: 20px 0;
+  padding-top: 0;
+}
+.node.css112  { color: #333; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 200px }
+.screen-sm .node.css112  { padding-right: 5px!important }
+.screen-xs .node.css112  { padding-right: 5px!important }
+.node.css112 a { color: rgb(230, 25, 25) }
+
+.textable.css113  { text-align: left; font-family: "TTNorms Regular"; font-size: 16px; line-height: 1.5; letter-spacing: 0em; opacity: 1 }
+
+.node.css114  { color: #333; padding-top: 5px; padding-bottom: 25px; padding-left: 5px; padding-right: 5px }
+.node.css114 a { color: rgb(230, 25, 25) }
+
+.textable.css115  { text-align: left; font-family: "TTNorms Regular"; font-size: 14px; line-height: 1.5999999999999999; letter-spacing: 0.1142857142857143em; opacity: 1 }
+
+.textable.css116  { text-align: left; font-family: "TTNorms Regular"; font-size: 16px; line-height: 1.4; letter-spacing: 0em; color: rgb(0, 0, 0); opacity: 1 }
+
+.textable.css117  { text-align: left; font-family: "TTNorms Regular"; font-size: 16px; line-height: 1.4; letter-spacing: 0em; opacity: 1 }
+
+.node.css118 > .wrapper1 { background-color: rgb(255, 255, 255) }
+.node.css118  { color: #333 }
+.node.css118  > .padding_top { padding-top: 60px }
+.node.css118  > .padding_bottom { padding-bottom: 91px }
+.node.css118 a { color: rgb(230, 25, 25) }
+
+.node.css119  { color: #333; padding-top: 20px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css119 a { color: rgb(25, 168, 230) }
+
+.textable.css120  { text-align: center; font-family: "TTNorms Regular"; font-size: 16px; line-height: 1.4; letter-spacing: 0em; opacity: 1 }
+.screen-xs .textable.css120  { text-align: center!important }
+
+.textable.css121  { text-align: left; font-family: "TTNorms Medium"; font-size: 14px; line-height: 1.2571428571428573; letter-spacing: 0.1142857142857143em; opacity: 0.75 }
+.screen-xs .textable.css121  { text-align: center!important }
+
+.node.css122  { color: #333; padding-top: 2px; padding-bottom: 45px; padding-left: 5px; padding-right: 120px }
+.screen-xs .node.css122  { padding-right: 5px!important }
+.node.css122 a { color: rgb(25, 168, 230) }
+
+.textable.css123  { text-align: left; font-family: "TTNorms Regular"; font-size: 28px; line-height: 1.4; letter-spacing: 0em; opacity: 1 }
+.screen-sm .textable.css123  { font-size: 22px!important }
+.screen-xs .textable.css123  { text-align: center!important; font-size: 28px!important }
+
+.node.css124  { color: #333; padding-top: 2px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css124 a { color: rgb(25, 168, 230) }
+
+.node.css125  { color: #333; padding-top: 40px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css125 a { color: rgb(25, 168, 230) }
+
+.btn.css126 { background-color: rgba(73, 141, 245, 0);border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;border-style: solid;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px;border-right-width: 0px;border-color: rgb(14, 104, 241);padding-top: 5px;padding-bottom: 5px;font-size: 28px;text-decoration: underline;color: rgb(73, 141, 245); } .btn.css126:hover, .btn.css126.hover { background-color: rgba(43, 123, 243, 0);border-color: rgb(11, 83, 193);color: rgb(14, 104, 241); } .btn.css126:active, .btn.css126.active { background-color: rgba(16, 106, 242, 0);border-color: rgb(12, 93, 217);color: rgb(0, 0, 0); } .btn.css126:before {  } .btn.css126:active:before, .btn.css126.active:before { background-color: rgba(16, 106, 242, 0); }
+.node.css127  { color: #333; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.screen-xs .node.css127  { padding-bottom: 35px!important }
+.node.css127 a { color: rgb(25, 168, 230) }
+
+.metahtml.css128 .form1-cover {
+  padding: 20px 15px;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(73, 141, 245);
+  border-style: none;
+  border-width: 2px;
+  border-radius: 5px;
+  box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+.node.css129  { color: #333; padding-top: 20px; padding-bottom: 20px; padding-left: 5px; padding-right: 5px }
+.node.css129 a { color: rgb(230, 25, 25) }
+
+.textable.css130  { text-align: center; font-family: "TTNorms Medium"; font-size: 20px; line-height: 1.2; letter-spacing: 0.04em; opacity: 1 }
+
+.metahtml.css131 [cr-field] {
+  padding-bottom: 14px;
+  font-size: 14px;
+  font-family: TTNorms Regular;
+}
+
+.metahtml.css131 .name {
+  font-weight: normal;
+  font-family: TTNorms Regular;
+  opacity: 0.8;
+  margin-bottom: 6.5px;
+  font-size: 13px;
+  word-wrap: break-word;
+  text-transform: uppercase;;
+  letter-spacing: 0.1em;;
+}
+
+.metahtml.css131 .form-control {
+  height: auto;
+  line-height: 1.2;
+  box-shadow: none;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 0px;
+  padding: 12px 9.6px;
+  font-size: 14px;
+  cursor: initial;
+}
+
+.metahtml.css131 .form-control:focus,
+.metahtml.css131 .form-control:focus-within {
+  border-color: rgb(73, 141, 245);
+  background-color: rgb(252, 252, 252);
+}
+
+.metahtml.css131 .form-control + .form-control {
+  margin-top: 10px;
+}
+
+.metahtml.css131 label {
+  font-weight: normal;
+  display: block;
+  cursor: pointer;
+}
+
+.metahtml.css131 textarea {
+  resize: vertical;
+}
+
+.metahtml.css131 .checkbox {
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  margin: 0 5.5px 0 0;
+  line-height: 0;
+  min-height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  background: white;
+  border: 2px solid rgba(0, 0, 0, 0.25);
+  position: relative;
+  transition: 300ms all;
+  border-radius: 2px;
+}
+
+.metahtml.css131 .checkbox svg {
+  width: 100%;
+  opacity: 0;
+  transform: scale(0);
+  transition: 300ms all;
+}
+
+.metahtml.css131 input:hover ~ .checkbox,
+.metahtml.css131 input:focus ~ .checkbox {
+  border-color: rgb(164, 198, 250);
+}
+
+.metahtml.css131 input:checked ~ .checkbox {
+  border-color: rgb(43, 123, 243);
+  background-color: rgb(73, 141, 245);
+}
+
+.metahtml.css131 input:active ~ .checkbox {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.metahtml.css131 input:checked ~ .checkbox svg {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.metahtml.css131 .radio {
+  margin: 0;
+  margin: 0 5.5px 0 0;
+  padding: 0;
+  line-height: 0;
+  width: 22px;
+  height: 22px;
+  min-height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  background: white;
+  border: 2px solid rgba(0, 0, 0, 0.25);
+  position: relative;
+  transition: 300ms all;
+  border-radius: 100px;
+}
+
+.metahtml.css131 .radio:before {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 0;
+  height: 100%;
+  content: '';
+  display: block;
+  background-color: white;
+  border-radius: 100px;
+  opacity: 0;
+  transform: scale(0);
+  transition: 300ms all;
+}
+
+.metahtml.css131 input:hover ~ .radio,
+.metahtml.css131 input:focus ~ .radio {
+  border-color: rgb(164, 198, 250);
+}
+
+.metahtml.css131 input:active ~ .radio {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.metahtml.css131 input:checked ~ .radio {
+  border-color: rgb(43, 123, 243);
+  background-color: rgb(73, 141, 245);
+}
+
+.metahtml.css131 input:checked ~ .radio:before {
+  opacity: 1;
+  transform: scale(0.5);
+}
+
+.metahtml.css131 [cr-field="checkbox-list"] span {
+  vertical-align: middle;
+}
+
+.metahtml.css131 [cr-field="checkbox-list"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.metahtml.css131 [cr-field="checkbox-list"] label + label {
+  margin-top: 7.333333333333333px;
+}
+
+.metahtml.css131 [cr-field="checkbox-visual"] {
+  overflow: hidden;
+}
+
+.metahtml.css131 [cr-field="checkbox-visual"] .items {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -20px;
+  justify-content: space-between;
+}
+
+.metahtml.css131 [cr-field="checkbox-visual"] .item {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 30%;
+}
+
+.metahtml.css131 [cr-field="checkbox-visual"] label {
+  position: relative;
+}
+
+.metahtml.css131 [cr-field="checkbox-visual"] .bgimage {
+  background-size: cover;
+  display: inline-block;
+  background-position: center;
+  border-radius: 50px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+}
+
+.metahtml.css131 [cr-field="checkbox-visual"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.metahtml.css131 [cr-field="checkbox-visual"] .tick {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(73, 141, 245, 0.75);
+  transition: all 300ms;
+  opacity: 0;
+}
+
+.metahtml.css131 [cr-field="checkbox-visual"] .tick svg {
+  opacity: 0;
+  transition: all 300ms;
+  max-width: 26px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.metahtml.css131 [cr-field="checkbox-visual"] .subname {
+  margin: 7px 0;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.metahtml.css131 [cr-field="checkbox-visual"] input:hover ~ .bgimage .tick,
+.metahtml.css131 [cr-field="checkbox-visual"] input:focus ~ .bgimage .tick {
+  opacity: 0.5;
+}
+
+.metahtml.css131 [cr-field="checkbox-visual"] input:checked ~ .bgimage .tick,
+.metahtml.css131 [cr-field="checkbox-visual"] input:checked ~ .bgimage .tick svg {
+  opacity: 1;
+}
+
+.screen-xs .metahtml.css131 [cr-field="checkbox-visual"] .item {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+
+.screen-xs .metahtml.css131 [cr-field="checkbox-visual"] .bgimage {
+  width: 25%;
+  padding-top: 25%;
+  vertical-align: middle;
+}
+
+.screen-xs .metahtml.css131 [cr-field="checkbox-visual"] .subname {
+  width: 75%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 5%;
+  margin-left: -4px;
+}
+
+.metahtml.css131 [cr-field="checkbox-input"] span {
+  vertical-align: middle;
+}
+
+.metahtml.css131 [cr-field="checkbox-input"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.metahtml.css131 [cr-field="radio-list"] span {
+  vertical-align: middle;
+}
+
+.metahtml.css131 [cr-field="radio-list"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.metahtml.css131 [cr-field="radio-list"] label + label {
+  margin-top: 7.333333333333333px;
+}
+
+.metahtml.css131 [cr-field="radio-visual"] {
+  overflow: hidden;
+}
+
+.metahtml.css131 [cr-field="radio-visual"] .items {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -20px;
+  justify-content: space-between;
+}
+
+.metahtml.css131 [cr-field="radio-visual"] .item {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 30%;
+}
+
+.metahtml.css131 [cr-field="radio-visual"] label {
+  position: relative;
+}
+
+.metahtml.css131 [cr-field="radio-visual"] .bgimage {
+  background-size: cover;
+  display: inline-block;
+  background-position: center;
+  border-radius: 50px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+}
+
+.metahtml.css131 [cr-field="radio-visual"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.metahtml.css131 [cr-field="radio-visual"] .tick {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(73, 141, 245, 0.75);
+  transition: all 300ms;
+  opacity: 0;
+}
+
+.metahtml.css131 [cr-field="radio-visual"] .tick svg {
+  opacity: 0;
+  transition: all 300ms;
+  max-width: 26px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.metahtml.css131 [cr-field="radio-visual"] .subname {
+  margin: 7px 0;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.metahtml.css131 [cr-field="radio-visual"] input:hover ~ .bgimage .tick {
+  opacity: 0.5;
+}
+
+.metahtml.css131 [cr-field="radio-visual"] input:checked ~ .bgimage .tick,
+.metahtml.css131 [cr-field="radio-visual"] input:checked ~ .bgimage .tick svg {
+  opacity: 1;
+}
+
+.screen-xs .metahtml.css131 [cr-field="radio-visual"] .item {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+
+.screen-xs .metahtml.css131 [cr-field="radio-visual"] .bgimage {
+  width: 25%;
+  padding-top: 25%;
+  vertical-align: middle;
+}
+
+.screen-xs .metahtml.css131 [cr-field="radio-visual"] .subname {
+  width: 75%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 5%;
+  margin-left: -4px;
+}
+
+.metahtml.css131 [cr-field="select-menu"] select {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 1;
+  color: black;
+  -webkit-appearance: none;
+}
+
+.metahtml.css131 [cr-field="select-menu"] .fa {
+  font-size: 20px;
+  line-height: 0;
+  opacity: 0.5;
+  vertical-align: middle;
+}
+
+.metahtml.css131 [cr-field="select-menu"] .flexgrid {
+  display: flex;
+  align-items: center;
+}
+
+.metahtml.css131 [cr-field="select-menu"] .flexgrid .left {
+  flex-grow: 1;
+  min-width: 50%;
+  word-wrap: break-word;
+}
+
+.metahtml.css131 [cr-field="file"] svg {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
+
+.metahtml.css131 [cr-field="file"] span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+.metahtml.css131 [cr-field="file"] input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 0;
+}
+
+.metahtml.css131 [cr-field="file"] .clean {
+  float: right;
+  opacity: 0.5;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.metahtml.css131 [cr-field="file"] .clean:hover {
+  opacity: 1;
+}
+
+.metahtml.css131 [cr-field="file"] .flexgrid {
+  display: flex;
+  align-items: center;
+}
+
+.metahtml.css131 [cr-field="file"] .flexgrid .center {
+  flex-grow: 1;
+  min-width: 50%;
+  word-wrap: break-word;
+}
+
+.metahtml.css131 [cr-field="result"] .flexgrid.align-sides {
+  display: flex;
+  align-items: center;
+}
+
+.metahtml.css131 [cr-field="result"] .flexgrid.align-sides .left .name {
+  margin-bottom: 0;
+}
+
+.metahtml.css131 [cr-field="result"] .flexgrid.align-center .left {
+  text-align: center;
+}
+
+.metahtml.css131 [cr-field="result"] .flexgrid.align-right .left {
+  text-align: right;
+}
+
+.metahtml.css131 [cr-field="result"] .flexgrid .right {
+  flex-grow: 1;
+  min-width: 25%;
+  word-wrap: break-word;
+  text-align: right;
+  font-size: 120%;
+}
+
+.metahtml.css131 [cr-field="result"] .flexgrid.align-left .right {
+  text-align: left;
+}
+
+.metahtml.css131 [cr-field="result"] .flexgrid.align-center .right {
+  text-align: center;
+}
+
+.metahtml.css131 [cr-field="result"] .flexgrid.align-right .right {
+  text-align: right;
+}
+
+.metahtml.css131 [cr-field="privacy-button"] .open {
+  text-align: center;
+  opacity: 0.5;
+  font-size: 80%;
+  cursor: pointer;
+}
+
+.metahtml.css131 [cr-field="privacy-button"] .open a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.metahtml.css131 [cr-field="privacy-checkbox"] {
+  font-size: 80%;
+}
+
+.metahtml.css131 [cr-field="privacy-checkbox"] span {
+  vertical-align: middle;
+}
+
+.metahtml.css131 [cr-field="privacy-checkbox"] a {
+  vertical-align: middle;
+  text-decoration: none;
+  border-bottom-width: 1px;
+  border-bottom-style: dashed;
+  color: inherit;
+  cursor: pointer;
+}
+
+.metahtml.css131 [cr-field="privacy-checkbox"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.metahtml.css131 [cr-field="privacy-text"] {
+  font-size: 80%;
+  text-align: center;
+}
+
+.metahtml.css131 [cr-field="privacy-text"] a {
+  text-decoration: none;
+  border-bottom-width: 1px;
+  border-bottom-style: dashed;
+  color: inherit;
+  cursor: pointer;
+}
+
+.metahtml.css131 [cr-field="hidden"] {
+  opacity: 0.25;
+}
+.node.css132  { color: #333; padding-top: 5px; padding-bottom: 5px; padding-left: 10px; padding-right: 10px }
+.node.css132 a { color: rgb(230, 25, 25) }
+
+.node.css133  { color: #333; padding-top: 4px; padding-bottom: 5px; padding-left: 10px; padding-right: 10px }
+.node.css133 a { color: rgb(230, 25, 25) }
+
+.node.css134  { color: #333; padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px }
+.node.css134 a { color: rgb(230, 25, 25) }
+
+.node.css135  { color: #333; padding-top: 10px; padding-bottom: 10px; padding-left: 5px; padding-right: 5px }
+.node.css135 a { color: rgb(230, 25, 25) }
+
+.node.css136 > .wrapper1 { background-color: rgb(255, 255, 255); border-radius: 5px; box-shadow:  0px 14px 21px 0px rgba(156, 175, 196, 0.21) }
+.node.css136  { color: #333; padding-top: 23px; padding-bottom: 23px; padding-left: 5px; padding-right: 5px }
+.node.css136 a { color: rgb(230, 25, 25) }
+
+.btn.css137 { background-color: rgba(4, 24, 69, 0);border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;border-bottom-left-radius: 5px;border-style: solid;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px;border-right-width: 0px;border-color: rgb(4, 24, 69);padding-top: 5px;padding-bottom: 5px;font-size: 14px;color: rgb(255, 255, 255); } .btn.css137:hover, .btn.css137.hover { background-color: rgba(4, 22, 62, 0);border-color: rgb(4, 22, 62);color: rgb(73, 141, 245); } .btn.css137:active, .btn.css137.active { background-color: rgba(4, 22, 62, 0);border-color: rgb(3, 17, 50);color: rgb(255, 255, 255); } .btn.css137:before {  } .btn.css137:active:before, .btn.css137.active:before { background-color: rgba(4, 22, 62, 0); }
+.node.css138  { color: #FFF; padding-top: 5px; padding-bottom: 90px; padding-left: 5px; padding-right: 5px }
+.node.css138 a { color: rgb(25, 88, 230) }
+
+.node.css139  { color: #FFF; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css139 a { color: rgb(25, 102, 230) }
+
+.textable.css140  { text-align: right; font-family: "TTNorms Regular"; font-size: 16px; line-height: 1.4; letter-spacing: 0em; opacity: 1 }
+.screen-xs .textable.css140  { text-align: center!important; font-size: 11px!important }
+
+ .svgicon.css141 path, .svgicon.css141 circle, .svgicon.css141 polygon, .svgicon.css141 rect { fill: rgb(255, 255, 255) } .svgicon.css141 defs > path { fill: none }  .svgicon.css141 path[fill="none"], .svgicon.css141 circle[fill="none"], .svgicon.css141 polygon[fill="none"], .svgicon.css141 rect[fill="none"] { fill: none } 
+ .svgicon.css142 .st0{fill:rgb(255, 255, 255);} 
+.textable.css143  { text-align: left; font-family: "TTNorms Regular"; font-size: 26px; line-height: 1.4; letter-spacing: 0em; opacity: 1 }
+.screen-xs .textable.css143  { text-align: center!important }
+
+.node.css144 > .wrapper1 { background-color: rgb(88, 144, 237) }
+.node.css144  { color: #FFF }
+.node.css144  > .padding_top { padding-top: 10px }
+.node.css144  > .padding_bottom { padding-bottom: 10px }
+.node.css144 a { color: rgb(25, 102, 230) }
+
+.area.screen-lg { min-width: 1200px; }.area.screen-lg .container { width: 1140px; }.area.screen-lg .container.soft { max-width: 1140px; }.area.screen-md { min-width: 960px; }.area.screen-md .container { width: 940px; }.area.screen-md .container.soft { max-width: 940px; }.area.screen-sm { min-width: 720px; }.area.screen-sm .container { width: 720px; }.area.screen-sm .container.soft { max-width: 720px; }.area.screen-xs .container { max-width: 737px; }
+ </style>
+    
+    <!-- PLUGINS -->
+    <noscript><div><img src="65061973.gif" style="position:absolute; left:-9999px;" alt=""></div></noscript>
+
+
+
+
+            
+    
+    <!-- proxy-module cut-head -->
+<link type="text/css" rel="stylesheet" href="vendors-async.css"><style type="text/css">.section.pp-section .slider-root {display: flex;height: 100%;}</style><link rel="stylesheet" href="module.css"><link rel="stylesheet" type="text/css" href="preload.css"><link rel="stylesheet" type="text/css" href="preload.css"><link rel="stylesheet" type="text/css" href="preload.css">
+</head>
+
+<body class="area font-text-ttnormsregular font-header-ttnormsmedium screen-lg" style="padding-bottom: 85px;">
+<div class="area-wrapper">
+<!-- PLUGINS -->
+
+
+
+
+
+<!-- HTML -->
+<!-- COMMON ujyzl7vxtwe36dw0w6nq --><div class="node css9 section-clear section font-text-ttnormsregular font-header-ttnormsmedium" data-common="ujyzl7vxtwe36dw0w6nq"><!--pseudo-hidden--><div class="padding_top"></div><div class="wrapper1"><div class="wrapper2"></div></div><div class="container"><div class="cont"><div class="node css4 widget-grid widget"><!--pseudo-hidden--><div class="grid valign-middle paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 22.4229%;"><div class="cont"><div class="node css0 css1 widget-image widget"><!--pseudo-hidden--><div class="xs-force-center bgnormal" style="text-align: center;"><a href="" target="" data-group=""><img class="" alt="" src="tild3137-3835-4661-a135-633732343062__6114d72e762b7cf0afec.png" style="width: 400px;" data-lazy-image_quality="8"></a></div><noscript><img src="tild3137-3835-4661-a135-633732343062__6114d72e762b7cf0afec-1.png" alt=""></noscript></div></div></div><div class="col" style="width: 51.212%;"><div class="cont"><div class="node css6 widget-hamburger widget"><!--pseudo-hidden--><div class="metahtml css2"><div class="hamburger1">
+  <div cr-hamburger-root="">
+    <div class="hamburger1-header">
+      <div cr-hamburger-toggle="" il-action="toggle" class="hamburger1-toggle is-collapsed">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="hamburger1-altmenu">
+        <div class="cont"></div>
+      </div>
+    </div>
+  </div>
+  <div cr-hamburger-menu="" class="hamburger1-menu is-collapsed" style="display: none;">
+    <div class="cont"><div class="node css5 widget-menu widget" id="menu1"><!--pseudo-hidden--><div class="w-menu-grid center"><div class="w-menu-grid__cell" style="padding-left: 0px; padding-right: 0px;"><div class="cont cell"><div class="node css4 widget-menu-button cr-menu-button widget"><!--pseudo-hidden--><div class="macros-button"><div class="btn-out center xs-none"><a class="btn-inner" href="#ceny" target="_self"><button class="btn css3 hvr-fade font-text" data-action="link" data-highlight="true"><div class="pad-left" style="width: 12px;"></div><div class="btn-content"><span class="text">Стоимость</span></div><div class="pad-right" style="width: 12px;"></div></button></a></div></div></div></div></div><div class="w-menu-grid__cell" style="padding-left: 0px; padding-right: 0px;"><div class="cont cell"><div class="node css4 widget-menu-button cr-menu-button widget"><!--pseudo-hidden--><div class="macros-button"><div class="btn-out center xs-none"><a class="btn-inner" href="#uslugi" target="_self"><button class="btn css3 hvr-fade font-text" data-action="link" data-highlight="true"><div class="pad-left" style="width: 12px;"></div><div class="btn-content"><span class="text">Услуги</span></div><div class="pad-right" style="width: 12px;"></div></button></a></div></div></div></div></div><div class="w-menu-grid__cell" style="padding-left: 0px; padding-right: 0px;"><div class="cont cell"><div class="node css4 widget-menu-button cr-menu-button widget"><!--pseudo-hidden--><div class="macros-button"><div class="btn-out center xs-none"><a class="btn-inner" href="#gurantee" target="_self"><button class="btn css3 hvr-fade font-text" data-action="link" data-highlight="true"><div class="pad-left" style="width: 12px;"></div><div class="btn-content"><span class="text">Гарантии</span></div><div class="pad-right" style="width: 12px;"></div></button></a></div></div></div></div></div><div class="w-menu-grid__cell" style="padding-left: 0px; padding-right: 0px;"><div class="cont cell"><div class="node css4 widget-menu-button cr-menu-button widget"><!--pseudo-hidden--><div class="macros-button"><div class="btn-out center xs-none"><a class="btn-inner" href="#otzivi" target="_self"><button class="btn css3 hvr-fade font-text hover" data-action="link" data-highlight="true"><div class="pad-left" style="width: 12px;"></div><div class="btn-content"><span class="text">Отзывы</span></div><div class="pad-right" style="width: 12px;"></div></button></a></div></div></div></div></div><div class="w-menu-grid__cell" style="padding-left: 0px; padding-right: 0px;"><div class="cont cell"><div class="node css4 widget-menu-button cr-menu-button widget"><!--pseudo-hidden--><div class="macros-button"><div class="btn-out center xs-none"><a class="btn-inner" href="#contacts" target="_blank"><button class="btn css3 hvr-fade font-text" data-action="link" data-highlight="true"><div class="pad-left" style="width: 12px;"></div><div class="btn-content"><span class="text">Контакты</span></div><div class="pad-right" style="width: 12px;"></div></button></a></div></div></div></div></div></div></div></div>
+  </div>
+</div></div></div></div></div><div class="col" style="width: 26.3651%;"><div class="cont"><div class="node css7 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css8">Новосибирск и НСО<br><a href="tel:+73832021985" style="color: rgb(255, 255, 255);">+7 (383) 202-19-85</a><br>Горячая линия 24/7</p></div></div></div></div></div></div></div></div><div class="padding_bottom"></div></div><div class="node css30 section-clear section" id="main"><!--pseudo-hidden--><div class="padding_top"></div><div class="wrapper1" data-lazy-bgimage_quality="8" style="background-image: url(&quot;ee8e536fda6fb197b9d2fc773ff82fbc.jpg&quot;);"><div class="wrapper2"></div></div><div class="container"><div class="cont"><div class="node css10 widget-text cr-text widget"><!--pseudo-hidden--><h1 class="textable css11">Избавься от клопов навсегда<br>с гарантией 1 год<br>с помощью опытных специалистов<br>уже сегодня</h1></div><div class="node css12 widget-text cr-text widget"><!--pseudo-hidden--><h2 class="textable css13">Применяем усиленную обработку импортными препаратами<br><br><span>Получи <strong><u>бесплатную консультацию</u> у специалиста прямо сейчас!&nbsp;</strong>&nbsp;</span></h2></div><div class="node css18 widget-grid widget"><!--pseudo-hidden--><div class="grid valign-top paddings-30px xs-wrap"><div class="gridwrap"><div class="col" style="width: 25%;"><div class="cont"><div class="node css14 css1 widget-image widget"><!--pseudo-hidden--><div class="xs-force-center bgnormal" style="text-align: center;"><img class="" alt="" src="term%20(2).png" style="width: 102.4px;" data-lazy-image_quality="8"></div><noscript><img src="term%20(2)-1.png" alt=""></noscript></div><div class="node css14 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css15">Гарантия 1 год по договору</p></div><div class="node css14 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css16">Официальная гарантия по договору на оказанные услуги 1 год</p></div></div></div><div class="col" style="width: 25%;"><div class="cont"><div class="node css14 css1 widget-image widget"><!--pseudo-hidden--><div class="xs-force-center bgnormal" style="text-align: center;"><img class="" alt="" src="family%20(1).png" style="width: 102.4px;" data-lazy-image_quality="8"></div><noscript><img src="family%20(1)-1.png" alt=""></noscript></div><div class="node css14 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css15">Безопасно для людей и животных</p></div><div class="node css14 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css17">Препараты соответствуют установленным нормам СанПиН</p></div></div></div><div class="col" style="width: 25%;"><div class="cont"><div class="node css14 css1 widget-image widget"><!--pseudo-hidden--><div class="xs-force-center bgnormal" style="text-align: center;"><img class="" alt="" src="cyber-security.png" style="width: 102.4px;" data-lazy-image_quality="8"></div><noscript><img src="cyber-security-1.png" alt=""></noscript></div><div class="node css14 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css15">Полностью конфиденциально</p></div><div class="node css14 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css17">Сотрудник переодевается на объекте</p></div></div></div><div class="col" style="width: 25%;"><div class="cont"><div class="node css14 css1 widget-image widget"><!--pseudo-hidden--><div class="xs-force-center bgnormal" style="text-align: center;"><img class="" alt="" src="coupon.png" style="width: 102.4px;" data-lazy-image_quality="8"></div><noscript><img src="coupon-1.png" alt=""></noscript></div><div class="node css14 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css15">Скидки на наши услуги</p></div><div class="node css14 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css17">Пенсионерам, многодетным семьям, на коллективные заявки</p></div></div></div></div></div></div><div class="node css29 widget-button widget"><!--pseudo-hidden--><div class="macros-button"><div class="btn-out center xs-none"><div class="btn-inner"><button class="btn css19 font-text" data-action="modal" data-highlight="false" data-modal="modal"><div class="pad-left" style="width: 34px;"></div><div class="btn-content"><span class="text">Вызвать специалиста</span></div><div class="pad-right" style="width: 34px;"></div></button></div></div></div><div class="modal nocolors" data-uid="ukesb0qljgrssfp2ootj" data-name="modal" data-type="modal" data-duration="300" data-id=""></div></div></div></div><div class="padding_bottom"></div></div><div class="node css37 section-clear section"><!--pseudo-hidden--><div class="padding_top"></div><div class="wrapper1"><div class="wrapper2"></div></div><div class="container"><div class="cont"><div class="node css36 widget-grid widget"><!--pseudo-hidden--><div class="grid valign-middle paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 26.9565%;"><div class="cont"><div class="node css31 css1 widget-image widget"><!--pseudo-hidden--><div class="xs-force-center bgnormal" style="text-align: center;"><img class="" alt="" src="82f0f0c42ebe53daa7cd5cdfc0d8565f-1.png" style="width: 92px;" data-lazy-image_quality="8"></div><noscript><img src="82f0f0c42ebe53daa7cd5cdfc0d8565f-2.png" alt=""></noscript></div></div></div><div class="col" style="width: 73.0435%;"><div class="cont"><div class="node css32 widget-text cr-text widget"><!--pseudo-hidden--><h2 class="textable css33">Одобрено Роспотребнадзором</h2></div><div class="node css34 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css35">Наша организация стоит на учете как официальная санитарная служба СЭС</p></div></div></div></div></div></div></div></div><div class="padding_bottom"></div></div><div class="node css56 css57 section-elements section" id="ceny"><!--pseudo-hidden--><div class="corner bottom-float"></div><div class="padding_top"></div><div class="wrapper1" data-lazy-bgimage_quality="8" style="background-image: url(&quot;26.png&quot;);"><div class="wrapper2"></div></div><div class="container"><div class="cont"><div class="node css38 widget-text cr-text widget"><!--pseudo-hidden--><h2 class="textable css39">Стоимость услуг дезинсекции</h2></div><div class="node css40 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css41">Скидка пенсионерам, многодетным семьям, на коллективные заявки</p></div></div><div class="s-elements-grid valign-top use-flex"><div class="s-elements-grid__cell cell-0"><div class="s-elements-grid__cellwrapper"><div class="cont cell"><div class="node css55 widget-element widget"><!--pseudo-hidden--><div class="wrapper1"><div class="wrapper2"></div></div><div class="cont"><div class="node css42 widget-text cr-text widget"><!--pseudo-hidden--><h3 class="textable css43">«Стандартная обработка» (Гарантия 6 месяцев):</h3></div><div class="node css48 widget-grid widget"><!--pseudo-hidden--><div class="grid valign-middle paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 70%;"><div class="cont"><div class="node css44 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css45">1-к. квартира</p></div></div></div><div class="col" style="width: 30%;"><div class="cont"><div class="node css46 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css47">1500 руб</p></div></div></div></div></div></div><div class="node css49 widget-line widget"><!--pseudo-hidden--><div class="alignment" style="text-align: center;"><div class="line" style="width: 100%; border-top: 1px dotted rgb(0, 0, 0);"></div></div></div><div class="node css48 widget-grid widget"><!--pseudo-hidden--><div class="grid valign-middle paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 70%;"><div class="cont"><div class="node css44 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css45">2-к. квартира</p></div></div></div><div class="col" style="width: 30%;"><div class="cont"><div class="node css46 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css47">1800 руб</p></div></div></div></div></div></div><div class="node css49 widget-line widget"><!--pseudo-hidden--><div class="alignment" style="text-align: center;"><div class="line" style="width: 100%; border-top: 1px dotted rgb(0, 0, 0);"></div></div></div><div class="node css48 widget-grid widget"><!--pseudo-hidden--><div class="grid valign-middle paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 70%;"><div class="cont"><div class="node css44 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css45">3-к. квартира</p></div></div></div><div class="col" style="width: 30%;"><div class="cont"><div class="node css46 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css47">2100 руб</p></div></div></div></div></div></div><div class="node css49 widget-line widget"><!--pseudo-hidden--><div class="alignment" style="text-align: center;"><div class="line" style="width: 100%; border-top: 1px dotted rgb(0, 0, 0);"></div></div></div><div class="node css48 widget-grid widget"><!--pseudo-hidden--><div class="grid valign-middle paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 70%;"><div class="cont"><div class="node css44 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css45">4-к. квартира</p></div></div></div><div class="col" style="width: 30%;"><div class="cont"><div class="node css46 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css47">2300 руб</p></div></div></div></div></div></div><div class="node css49 widget-line widget"><!--pseudo-hidden--><div class="alignment" style="text-align: center;"><div class="line" style="width: 100%; border-top: 1px dotted rgb(0, 0, 0);"></div></div></div><div class="node css48 widget-grid widget"><!--pseudo-hidden--><div class="grid valign-middle paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 59.8851%;"><div class="cont"><div class="node css44 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css45">Частные дома и коммерческая недвижимость</p></div></div></div><div class="col" style="width: 40.1149%;"><div class="cont"><div class="node css46 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css47">по договоренности</p></div></div></div></div></div></div><div class="node css49 widget-line widget"><!--pseudo-hidden--><div class="alignment" style="text-align: center;"><div class="line" style="width: 100%; border-top: 1px dotted rgb(0, 0, 0);"></div></div></div><div class="node css54 widget-button widget"><!--pseudo-hidden--><div class="macros-button"><div class="btn-out center xs-none"><div class="btn-inner"><button class="btn css50 font-text" data-action="modal" data-highlight="false" data-modal="modal"><div class="pad-left" style="width: 24px;"></div><div class="btn-content"><span class="text">Вызвать специалиста</span></div><div class="pad-right" style="width: 24px;"></div></button></div></div></div><div class="modal nocolors" data-uid="ukesb6zxm4mzh1u8yzph" data-name="modal" data-type="modal" data-duration="300" data-id=""></div></div></div></div></div></div></div><div class="s-elements-grid__cell cell-1"><div class="s-elements-grid__cellwrapper"><div class="cont cell"><div class="node css55 widget-element widget"><!--pseudo-hidden--><div class="wrapper1"><div class="wrapper2"></div></div><div class="cont"><div class="node css42 widget-text cr-text widget"><!--pseudo-hidden--><h3 class="textable css43">«Усиленная обработка» (Гарантия 1 год):</h3></div><div class="node css48 widget-grid widget"><!--pseudo-hidden--><div class="grid valign-middle paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 70%;"><div class="cont"><div class="node css44 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css45">1-к. квартира</p></div></div></div><div class="col" style="width: 30%;"><div class="cont"><div class="node css46 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css47">1700 руб</p></div></div></div></div></div></div><div class="node css49 widget-line widget"><!--pseudo-hidden--><div class="alignment" style="text-align: center;"><div class="line" style="width: 100%; border-top: 1px dotted rgb(0, 0, 0);"></div></div></div><div class="node css48 widget-grid widget"><!--pseudo-hidden--><div class="grid valign-middle paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 70%;"><div class="cont"><div class="node css44 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css45">2-к. квартира</p></div></div></div><div class="col" style="width: 30%;"><div class="cont"><div class="node css46 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css47">2000 руб</p></div></div></div></div></div></div><div class="node css49 widget-line widget"><!--pseudo-hidden--><div class="alignment" style="text-align: center;"><div class="line" style="width: 100%; border-top: 1px dotted rgb(0, 0, 0);"></div></div></div><div class="node css48 widget-grid widget"><!--pseudo-hidden--><div class="grid valign-middle paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 70%;"><div class="cont"><div class="node css44 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css45">3-к. квартира</p></div></div></div><div class="col" style="width: 30%;"><div class="cont"><div class="node css46 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css47">2300 руб</p></div></div></div></div></div></div><div class="node css49 widget-line widget"><!--pseudo-hidden--><div class="alignment" style="text-align: center;"><div class="line" style="width: 100%; border-top: 1px dotted rgb(0, 0, 0);"></div></div></div><div class="node css48 widget-grid widget"><!--pseudo-hidden--><div class="grid valign-middle paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 70%;"><div class="cont"><div class="node css44 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css45">4-к. квартира</p></div></div></div><div class="col" style="width: 30%;"><div class="cont"><div class="node css46 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css47">2500 руб</p></div></div></div></div></div></div><div class="node css49 widget-line widget"><!--pseudo-hidden--><div class="alignment" style="text-align: center;"><div class="line" style="width: 100%; border-top: 1px dotted rgb(0, 0, 0);"></div></div></div><div class="node css48 widget-grid widget"><!--pseudo-hidden--><div class="grid valign-middle paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 59.8851%;"><div class="cont"><div class="node css44 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css45">Частные дома и коммерческая недвижимость</p></div></div></div><div class="col" style="width: 40.1149%;"><div class="cont"><div class="node css46 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css47">по договоренности</p></div></div></div></div></div></div><div class="node css49 widget-line widget"><!--pseudo-hidden--><div class="alignment" style="text-align: center;"><div class="line" style="width: 100%; border-top: 1px dotted rgb(0, 0, 0);"></div></div></div><div class="node css54 widget-button widget"><!--pseudo-hidden--><div class="macros-button"><div class="btn-out center xs-none"><div class="btn-inner"><button class="btn css50 font-text" data-action="modal" data-highlight="false" data-modal="modal"><div class="pad-left" style="width: 24px;"></div><div class="btn-content"><span class="text">Вызвать специалиста</span></div><div class="pad-right" style="width: 24px;"></div></button></div></div></div><div class="modal nocolors" data-uid="ukesb7018q6lc6npkzo" data-name="modal" data-type="modal" data-duration="300" data-id=""></div></div></div></div></div></div></div><div class="s-elements-grid__cell cell-2"><div class="s-elements-grid__cellwrapper"><div class="cont cell"><div class="node css55 widget-element widget"><!--pseudo-hidden--><div class="wrapper1"><div class="wrapper2"></div></div><div class="cont"><div class="node css42 widget-text cr-text widget"><!--pseudo-hidden--><h3 class="textable css43">Другие услуги:</h3></div><div class="node css48 widget-grid widget"><!--pseudo-hidden--><div class="grid valign-middle paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 70%;"><div class="cont"><div class="node css44 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css45">Дератизация</p></div></div></div><div class="col" style="width: 30%;"><div class="cont"><div class="node css46 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css47"><span>&nbsp;</span>от 1000 руб</p></div></div></div></div></div></div><div class="node css49 widget-line widget"><!--pseudo-hidden--><div class="alignment" style="text-align: center;"><div class="line" style="width: 100%; border-top: 1px dotted rgb(0, 0, 0);"></div></div></div><div class="node css54 widget-button widget"><!--pseudo-hidden--><div class="macros-button"><div class="btn-out center xs-none"><div class="btn-inner"><button class="btn css50 font-text" data-action="modal" data-highlight="false" data-modal="modal"><div class="pad-left" style="width: 24px;"></div><div class="btn-content"><span class="text">Вызвать специалиста</span></div><div class="pad-right" style="width: 24px;"></div></button></div></div></div><div class="modal nocolors" data-uid="ukesb704la8xwjc1njb7" data-name="modal" data-type="modal" data-duration="300" data-id=""></div></div></div></div></div></div></div></div><div class="cont"></div></div><div class="padding_bottom"></div></div><div class="node css68 css69 section-elements section" id="uslugi"><!--pseudo-hidden--><div class="corner bottom-float"></div><div class="padding_top"></div><div class="container"><div class="cont"><div class="node css58 widget-text cr-text widget"><!--pseudo-hidden--><h2 class="textable css39">Наши услуги</h2></div><div class="node css59 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css60">По обработке помещений и участков</p></div></div><div class="s-elements-grid valign-top use-flex"><div class="s-elements-grid__cell cell-0"><div class="s-elements-grid__cellwrapper"><div class="cont cell"><div class="node css66 widget-element widget"><!--pseudo-hidden--><div class="wrapper1" data-lazy-bgimage_quality="8" style="background-image: url(&quot;6.png&quot;);"><div class="wrapper2"></div></div><div class="cont"><div class="node css61 widget-text cr-text widget"><!--pseudo-hidden--><h3 class="textable css43">Дезинсекция</h3></div><div class="node css62 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css63">Уничтожение насекомых: тараканы, клопы, муравьи, тля, клещи и другие</p></div><div class="node css65 widget-button widget"><!--pseudo-hidden--><div class="macros-button"><div class="btn-out left xs-center"><div class="btn-inner"><button class="btn css50 font-text" data-action="modal" data-highlight="false" data-modal="modal"><div class="pad-left" style="width: 24px;"></div><div class="btn-content"><span class="text">Вызвать специалиста</span></div><div class="pad-right" style="width: 24px;"></div></button></div></div></div><div class="modal nocolors" data-uid="ukesbfq6thtx28l18oei" data-name="modal" data-type="modal" data-duration="300" data-id=""></div></div></div></div></div></div></div><div class="s-elements-grid__cell cell-1"><div class="s-elements-grid__cellwrapper"><div class="cont cell"><div class="node css66 widget-element widget"><!--pseudo-hidden--><div class="wrapper1" data-lazy-bgimage_quality="8" style="background-image: url(&quot;bg-1.jpg&quot;);"><div class="wrapper2"></div></div><div class="cont"><div class="node css61 widget-text cr-text widget"><!--pseudo-hidden--><h3 class="textable css43">Дезодорация</h3></div><div class="node css62 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css63">Устранение неприятных запахов</p></div><div class="node css65 widget-button widget"><!--pseudo-hidden--><div class="macros-button"><div class="btn-out left xs-center"><div class="btn-inner"><button class="btn css50 font-text" data-action="modal" data-highlight="false" data-modal="modal"><div class="pad-left" style="width: 24px;"></div><div class="btn-content"><span class="text">Вызвать специалиста</span></div><div class="pad-right" style="width: 24px;"></div></button></div></div></div><div class="modal nocolors" data-uid="ukesbfqa7xat8u1u2bw" data-name="modal" data-type="modal" data-duration="300" data-id=""></div></div></div></div></div></div></div><div class="s-elements-grid__cell cell-2"><div class="s-elements-grid__cellwrapper"><div class="cont cell"><div class="node css67 widget-element widget"><!--pseudo-hidden--><div class="wrapper1" data-lazy-bgimage_quality="8" style="background-image: url(&quot;035da546c4a33dbceeec9b4b708a4b58.png&quot;);"><div class="wrapper2"></div></div><div class="cont"><div class="node css61 widget-text cr-text widget"><!--pseudo-hidden--><h3 class="textable css43">Дезинфекция</h3></div><div class="node css62 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css63">Обработка от бактерий, плесени, грибков и вирусов</p></div><div class="node css65 widget-button widget"><!--pseudo-hidden--><div class="macros-button"><div class="btn-out left xs-center"><div class="btn-inner"><button class="btn css50 font-text" data-action="modal" data-highlight="false" data-modal="modal"><div class="pad-left" style="width: 24px;"></div><div class="btn-content"><span class="text">Вызвать специалиста</span></div><div class="pad-right" style="width: 24px;"></div></button></div></div></div><div class="modal nocolors" data-uid="ukesbfqbts3l9pmpitkf" data-name="modal" data-type="modal" data-duration="300" data-id=""></div></div></div></div></div></div></div><div class="s-elements-grid__cell cell-3"><div class="s-elements-grid__cellwrapper"><div class="cont cell"><div class="node css67 widget-element widget"><!--pseudo-hidden--><div class="wrapper1" data-lazy-bgimage_quality="8" style="background-image: url(&quot;грызуны.jpg&quot;);"><div class="wrapper2"></div></div><div class="cont"><div class="node css61 widget-text cr-text widget"><!--pseudo-hidden--><h3 class="textable css43">Дератизация</h3></div><div class="node css62 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css63">Уничтожение грызунов (крысы, мыши и пр. грызуны)</p></div><div class="node css65 widget-button widget"><!--pseudo-hidden--><div class="macros-button"><div class="btn-out left xs-center"><div class="btn-inner"><button class="btn css50 font-text" data-action="modal" data-highlight="false" data-modal="modal"><div class="pad-left" style="width: 24px;"></div><div class="btn-content"><span class="text">Вызвать специалиста</span></div><div class="pad-right" style="width: 24px;"></div></button></div></div></div><div class="modal nocolors" data-uid="ukesbfqddfbhqv9rxtz9" data-name="modal" data-type="modal" data-duration="300" data-id=""></div></div></div></div></div></div></div><div class="s-elements-grid__cell cell-4"><div class="s-elements-grid__cellwrapper"><div class="cont cell"><div class="node css67 widget-element widget"><!--pseudo-hidden--><div class="wrapper1" data-lazy-bgimage_quality="8" style="background-image: url(&quot;bg-2.jpg&quot;);"><div class="wrapper2"></div></div><div class="cont"><div class="node css61 widget-text cr-text widget"><!--pseudo-hidden--><h3 class="textable css43">Акарицидная обработка (клещи)</h3></div><div class="node css62 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css63">Обработка участков и территорий от клещей</p></div><div class="node css65 widget-button widget"><!--pseudo-hidden--><div class="macros-button"><div class="btn-out left xs-center"><div class="btn-inner"><button class="btn css50 font-text" data-action="modal" data-highlight="false" data-modal="modal"><div class="pad-left" style="width: 24px;"></div><div class="btn-content"><span class="text">Вызвать специалиста</span></div><div class="pad-right" style="width: 24px;"></div></button></div></div></div><div class="modal nocolors" data-uid="ukesbfqf0wfkbucky9s" data-name="modal" data-type="modal" data-duration="300" data-id=""></div></div></div></div></div></div></div></div><div class="cont"></div></div><div class="padding_bottom"></div></div><div class="node css76 section-clear section" id="gurantee"><!--pseudo-hidden--><div class="padding_top"></div><div class="wrapper1" data-lazy-bgimage_quality="8" style="background-image: url(&quot;26.png&quot;);"><div class="wrapper2"></div></div><div class="container"><div class="cont"><div class="node css38 widget-text cr-text widget"><!--pseudo-hidden--><h2 class="textable css39">Гарантия по договору</h2></div><div class="node css40 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css60">(Без мелкого шрифта и условий под звездочкой)</p></div><div class="node css38 widget-grid widget"><!--pseudo-hidden--><div class="grid valign-middle paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 50%;"><div class="cont"><div class="node css70 css1 widget-image widget"><!--pseudo-hidden--><div class="xs-force-center bgnormal" style="text-align: center;"><a href="https://i.1.creatium.io/dd/71/cb/05be8bceeba3c76588a272e4c0ae8760fb/WhatsApp%20Image%202020-06-26%20at%2016.48.41.jpeg" target="_blank" data-group="1" class="fancybox"><img class="" alt="" src="WhatsApp%20Image%202020-06-26%20at%2016.48.41.jpeg" style="width: 1280px;" data-lazy-image_quality="8"></a></div><noscript><img src="WhatsApp%20Image%202020-06-26%20at%2016.48.41-1.jpeg" alt=""></noscript></div></div></div><div class="col" style="width: 50%;"><div class="cont"><div class="node css71 widget-text cr-text widget"><!--pseudo-hidden--><h2 class="textable css72">Мы даем лучшую гарантию на наши услуги:</h2></div><div class="node css73 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css45">Мы провели более 13 000 обработок. Из них меньше 1% повторных. 99% клиентов получают результат с 1-ого раза</p></div><div class="node css38 widget-button widget"><!--pseudo-hidden--><div class="macros-button"><div class="btn-out center xs-none"><div class="btn-inner"><button class="btn css50 font-text" data-action="modal" data-highlight="false" data-modal="modal"><div class="pad-left" style="width: 24px;"></div><div class="btn-content"><span class="text">Оставить заявку</span></div><div class="pad-right" style="width: 24px;"></div></button></div></div></div><div class="modal nocolors" data-uid="ukesbfqpp3oln11w69hl" data-name="modal" data-type="modal" data-duration="300" data-id=""></div></div></div></div></div></div></div></div></div><div class="padding_bottom"></div></div><div class="node css79 css80 section-elements section"><!--pseudo-hidden--><div class="corner bottom-float"></div><div class="padding_top"></div><div class="container"><div class="cont"><div class="node css77 widget-text cr-text widget"><!--pseudo-hidden--><h2 class="textable css39">Благодарственные письма</h2></div><div class="node css59 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css60">Несем полную ответственность</p></div></div><div class="s-elements-grid valign-top use-table"><div class="s-elements-grid__cell cell-0"><div class="s-elements-grid__cellwrapper"><div class="cont cell"><div class="node css58 widget-element widget"><!--pseudo-hidden--><div class="cont"><div class="node css58 css78 widget-image widget"><!--pseudo-hidden--><a class="bgimage fancybox bg-contain" data-role="" href="https://i.1.creatium.io/6b/53/2b/222a07cb7aad9685da5f298eb97f13ea2c/WhatsApp%20Image%202020-06-06%20at%2018.25.23.jpeg" target="_blank" data-group="2" style="background-position: center center; background-size: contain; background-image: url(&quot;WhatsApp%20Image%202020-06-06%20at%2018.25.23.jpeg&quot;);" data-lazy-bgimage_quality="8"><div class="inner"><img class="" src="d5fceb6532643d0d84ffe09c40c481ecdf59e15a.gif" alt=""><div class="proportions"></div></div></a><noscript><img src="WhatsApp%20Image%202020-06-06%20at%2018.25.23-1.jpeg" alt=""></noscript></div></div></div></div></div></div><div class="s-elements-grid__cell cell-1"><div class="s-elements-grid__cellwrapper"><div class="cont cell"><div class="node css58 widget-element widget"><!--pseudo-hidden--><div class="cont"><div class="node css58 css78 widget-image widget"><!--pseudo-hidden--><a class="bgimage fancybox bg-contain" data-role="" href="https://i.1.creatium.io/6d/dc/65/c0c8b1a3d9e11d17a16ddecaca5783d1ed/WhatsApp%20Image%202020-04-29%20at%2012.56.13.jpeg" target="_blank" data-group="2" style="background-position: center center; background-size: contain; background-image: url(&quot;WhatsApp%20Image%202020-04-29%20at%2012.56.13.jpeg&quot;);" data-lazy-bgimage_quality="8"><div class="inner"><img class="" src="d5fceb6532643d0d84ffe09c40c481ecdf59e15a.gif" alt=""><div class="proportions"></div></div></a><noscript><img src="WhatsApp%20Image%202020-04-29%20at%2012.56.13-1.jpeg" alt=""></noscript></div></div></div></div></div></div></div><div class="cont"></div></div><div class="padding_bottom"></div></div><div class="node css83 css84 section-elements section" id="otzivi"><!--pseudo-hidden--><div class="corner bottom-float"></div><div class="padding_top"></div><div class="wrapper1" data-lazy-bgimage_quality="8" style="background-image: url(&quot;26.png&quot;);"><div class="wrapper2"></div></div><div class="container"><div class="cont"><div class="node css38 widget-text cr-text widget"><!--pseudo-hidden--><h2 class="textable css39">Отзывы наших клиентов</h2></div><div class="node css40 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css60">Несем полную ответственность</p></div></div><div class="s-elements-grid valign-top use-flex"><div class="s-elements-grid__cell cell-0"><div class="s-elements-grid__cellwrapper"><div class="cont cell"><div class="node css82 widget-element widget"><!--pseudo-hidden--><div class="wrapper1"><div class="wrapper2"></div></div><div class="cont"><div class="node css81 css1 widget-image widget"><!--pseudo-hidden--><div class="xs-force-center bgnormal" style="text-align: center;"><a href="https://i.1.creatium.io/a5/63/c3/aaf56b543bd18a4d1a87a6ef1a53837adc/WhatsApp%20Image%202019-09-16%20at%2015.45.47.jpeg" target="_blank" data-group="3" class="fancybox"><img class="" alt="" src="WhatsApp%20Image%202019-09-16%20at%2015.45.47.jpeg" style="width: 720px;" data-lazy-image_quality="8"></a></div><noscript><img src="WhatsApp%20Image%202019-09-16%20at%2015.45.47-1.jpeg" alt=""></noscript></div></div></div></div></div></div><div class="s-elements-grid__cell cell-1"><div class="s-elements-grid__cellwrapper"><div class="cont cell"><div class="node css82 widget-element widget"><!--pseudo-hidden--><div class="wrapper1"><div class="wrapper2"></div></div><div class="cont"><div class="node css81 css1 widget-image widget"><!--pseudo-hidden--><div class="xs-force-center bgnormal" style="text-align: center;"><a href="https://i.1.creatium.io/2a/41/e2/49163c5d12d544978a6635fcc07047eb5a/WhatsApp%20Image%202019-09-16%20at%2015.52.22.jpeg" target="_blank" data-group="3" class="fancybox"><img class="" alt="" src="WhatsApp%20Image%202019-09-16%20at%2015.52.22.jpeg" style="width: 720px;" data-lazy-image_quality="8"></a></div><noscript><img src="WhatsApp%20Image%202019-09-16%20at%2015.52.22-1.jpeg" alt=""></noscript></div></div></div></div></div></div><div class="s-elements-grid__cell cell-2"><div class="s-elements-grid__cellwrapper"><div class="cont cell"><div class="node css82 widget-element widget"><!--pseudo-hidden--><div class="wrapper1"><div class="wrapper2"></div></div><div class="cont"><div class="node css81 css1 widget-image widget"><!--pseudo-hidden--><div class="xs-force-center bgnormal" style="text-align: center;"><a href="https://i.1.creatium.io/1b/b1/4f/748d931a9ee915ca6693ff9011560c63ad/WhatsApp%20Image%202019-09-16%20at%2017.23.05.jpeg" target="_blank" data-group="3" class="fancybox"><img class="" alt="" src="WhatsApp%20Image%202019-09-16%20at%2017.23.05.jpeg" style="width: 720px;" data-lazy-image_quality="8"></a></div><noscript><img src="WhatsApp%20Image%202019-09-16%20at%2017.23.05-1.jpeg" alt=""></noscript></div></div></div></div></div></div><div class="s-elements-grid__cell cell-3"><div class="s-elements-grid__cellwrapper"><div class="cont cell"><div class="node css82 widget-element widget"><!--pseudo-hidden--><div class="wrapper1"><div class="wrapper2"></div></div><div class="cont"><div class="node css81 css1 widget-image widget"><!--pseudo-hidden--><div class="xs-force-center bgnormal" style="text-align: center;"><a href="https://i.1.creatium.io/64/20/4a/56e179a0222ccf25db3f1a9401ede8d956/%D0%9E%D1%82%D0%B7%D1%8B%D0%B2.jpeg" target="_blank" data-group="3" class="fancybox"><img class="" alt="" src="Отзыв.jpeg" style="width: 720px;" data-lazy-image_quality="8"></a></div><noscript><img src="Отзыв-1.jpeg" alt=""></noscript></div></div></div></div></div></div></div><div class="cont"><div class="node css38 widget-grid widget xs-hidden md-hidden lg-hidden"><div class="grid valign-middle paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 33.3333%;"><div class="cont"><div class="node css38 widget-html widget"><!--pseudo-hidden--><div class="code"><div id="cp_widget_1c342702-bf13-4ecc-b374-5fa653457a5f" style="margin: 0px auto;"><div style="width:600px;height:200px;" id="inner_cp_widget_1c342702-bf13-4ecc-b374-5fa653457a5f" class="cp_reset_style "><div style="width:600px;height:100px;color:red;font-size:14px;text-align:center;background-color:#f5f5f5;"><br>Gallery is offline - out of quota <br>Click to <a style="color: green;font-weight: 700;" href="https://www.cincopa.com/about-gallery-offline?uid=A8FAbahsX1eb&amp;utm_source=graybox&amp;utm_medium=ref&amp;utm_campaign=outofstorage-free">restore your gallery</a> or contact us at support@cincopa.com</div></div><div style="clear:both;"></div><div style="clear:both;"><a href="https://www.cincopa.com/?utm_campaign=viral_pro_skins&amp;afc=mplp1" style="vertical-align: middle;display: inline-block;"><img style="padding:0px;margin:0px;border:0px;width:236px;height:30px;" border="0" alt="Powered By Cincopa" src="bycincopa.png"></a><div style="display: inline-block; vertical-align: middle; margin: 0 .2em 0 1em; position: relative; margin-bottom: 5px;"><div id="___plusone_0" style="position: absolute; width: 450px; left: -10000px;"><iframe ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position:absolute;top:-10000px;width:450px;margin:0px;border-style:none" tabindex="0" vspace="0" width="100%" id="I0_1599661967030" name="I0_1599661967030" src="index_3.html#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh%2Conload&amp;id=I0_1599661967030&amp;_gfid=I0_1599661967030&amp;parent=https%3A%2F%2Fxn--54-6kcatgtd8agfsxhp0eyf0b.xn--p1ai&amp;pfname=&amp;rpctoken=40304703" data-gapiattached="true"></iframe></div><div class="g-plusone" data-size="medium" data-href="https://plus.google.com/111463929396015329416" data-gapiscan="true" data-onload="true" data-gapistub="true"></div></div><iframe allowtransparency="true" frameborder="0" scrolling="no" style="vertical-align: middle;overflow:hidden;border:0px none;width:92px;height:20px;margin-bottom:5px;" src="index_5.html"></iframe></div></div></div></div></div></div><div class="col" style="width: 33.3333%;"><div class="cont"><div class="node css38 widget-html widget"><!--pseudo-hidden--><div class="code"><div id="cp_widget_b23f4341-26db-4e57-8d78-e27a1ac339a9" style="margin: 0px auto;"><div style="width:600px;height:200px;" id="inner_cp_widget_b23f4341-26db-4e57-8d78-e27a1ac339a9" class="cp_reset_style "><div style="width:600px;height:100px;color:red;font-size:14px;text-align:center;background-color:#f5f5f5;"><br>Gallery is offline - out of quota <br>Click to <a style="color: green;font-weight: 700;" href="https://www.cincopa.com/about-gallery-offline?uid=A8FAbahsX1eb&amp;utm_source=graybox&amp;utm_medium=ref&amp;utm_campaign=outofstorage-free">restore your gallery</a> or contact us at support@cincopa.com</div></div><div style="clear:both;"></div><div style="clear:both;"><a href="https://www.cincopa.com/?utm_campaign=viral_pro_skins&amp;afc=mplp1" style="vertical-align: middle;display: inline-block;"><img style="padding:0px;margin:0px;border:0px;width:236px;height:30px;" border="0" alt="Powered By Cincopa" src="bycincopa.png"></a><div style="display: inline-block; vertical-align: middle; margin: 0 .2em 0 1em; position: relative; margin-bottom: 5px;"><div id="___plusone_1" style="position: absolute; width: 450px; left: -10000px;"><iframe ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position:absolute;top:-10000px;width:450px;margin:0px;border-style:none" tabindex="0" vspace="0" width="100%" id="I1_1599661967052" name="I1_1599661967052" src="index_4.html#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh%2Conload&amp;id=I1_1599661967052&amp;_gfid=I1_1599661967052&amp;parent=https%3A%2F%2Fxn--54-6kcatgtd8agfsxhp0eyf0b.xn--p1ai&amp;pfname=&amp;rpctoken=36725596" data-gapiattached="true"></iframe></div><div class="g-plusone" data-size="medium" data-href="https://plus.google.com/111463929396015329416" data-gapiscan="true" data-onload="true" data-gapistub="true"></div></div><iframe allowtransparency="true" frameborder="0" scrolling="no" style="vertical-align: middle;overflow:hidden;border:0px none;width:92px;height:20px;margin-bottom:5px;" src="index_6.html"></iframe></div></div></div></div></div></div><div class="col" style="width: 33.3333%;"><div class="cont"><div class="node css38 widget-html widget"><!--pseudo-hidden--><div class="code"><div id="cp_widget_b23f4341-26db-4e57-8d78-e27a1ac339a9">...</div></div></div></div></div></div></div></div></div></div><div class="padding_bottom"></div></div><div class="node css98 css99 section-elements section"><!--pseudo-hidden--><div class="corner bottom-float"></div><div class="padding_top"></div><div class="wrapper1"><div class="wrapper2"></div></div><div class="container"><div class="cont"><div class="node css36 widget-text cr-text widget"><!--pseudo-hidden--><h2 class="textable css39">Процесс уничтожения насекомых в квартире</h2></div><div class="node css85 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css22">Обычно работы выполняются в день заявки. Оплата производится любым удобным для вас способом. По итогам предоставляем все необходимые документы для подтверждения мероприятий перед гос. органами.</p></div></div><div class="s-elements-grid valign-top use-flex"><div class="s-elements-grid__cell cell-0"><div class="s-elements-grid__cellwrapper"><div class="cont cell"><div class="node css95 widget-element widget"><!--pseudo-hidden--><div class="cont"><div class="node css87 widget-element-number widget"><!--pseudo-hidden--><div class="metahtml css86"><div class="number">
+	01
+</div></div></div><div class="node css94 widget-element widget"><!--pseudo-hidden--><div class="wrapper1"><div class="wrapper2"></div></div><div class="cont"><div class="node css88 css89 widget-image widget"><!--pseudo-hidden--><div class="bgimage bg-cover" data-role="" style="background-position: right center; background-size: cover; background-image: url(&quot;осмотр.jpg&quot;);" data-lazy-bgimage_quality="8"><div class="inner"><img class="" src="d5fceb6532643d0d84ffe09c40c481ecdf59e15a.gif" alt=""></div></div><noscript><img src="осмотр-1.jpg" alt=""></noscript></div><div class="node css90 widget-text cr-text widget"><!--pseudo-hidden--><h3 class="textable css91">ОСМОТР ПОМЕЩЕНИЯ</h3></div><div class="node css92 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css93">Специалист осматривает помещение и разрабатывает тактику проведения дезинсекции.</p></div></div></div></div></div></div></div></div><div class="s-elements-grid__cell cell-1"><div class="s-elements-grid__cellwrapper"><div class="cont cell"><div class="node css95 widget-element widget"><!--pseudo-hidden--><div class="cont"><div class="node css87 widget-element-number widget"><!--pseudo-hidden--><div class="metahtml css86"><div class="number">
+	02
+</div></div></div><div class="node css96 widget-element widget"><!--pseudo-hidden--><div class="wrapper1"><div class="wrapper2"></div></div><div class="cont"><div class="node css88 css89 widget-image widget"><!--pseudo-hidden--><div class="bgimage bg-cover" data-role="" style="background-position: center center; background-size: cover; background-image: url(&quot;Договор.jpg&quot;);" data-lazy-bgimage_quality="8"><div class="inner"><img class="" src="d5fceb6532643d0d84ffe09c40c481ecdf59e15a.gif" alt=""></div></div><noscript><img src="Договор-1.jpg" alt=""></noscript></div><div class="node css90 widget-text cr-text widget"><!--pseudo-hidden--><h3 class="textable css91">ЗАКЛЮЧАЕМ ДОГОВОР</h3></div><div class="node css92 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css93">Заключаем договор.</p></div></div></div></div></div></div></div></div><div class="s-elements-grid__cell cell-2"><div class="s-elements-grid__cellwrapper"><div class="cont cell"><div class="node css95 widget-element widget"><!--pseudo-hidden--><div class="cont"><div class="node css87 widget-element-number widget"><!--pseudo-hidden--><div class="metahtml css86"><div class="number">
+	03
+</div></div></div><div class="node css97 widget-element widget"><!--pseudo-hidden--><div class="wrapper1"><div class="wrapper2"></div></div><div class="cont"><div class="node css88 css89 widget-image widget"><!--pseudo-hidden--><div class="bgimage bg-cover" data-role="" style="background-position: center center; background-size: cover; background-image: url(&quot;обработка.jpg&quot;);" data-lazy-bgimage_quality="8"><div class="inner"><img class="" src="d5fceb6532643d0d84ffe09c40c481ecdf59e15a.gif" alt=""></div></div><noscript><img src="обработка-1.jpg" alt=""></noscript></div><div class="node css90 widget-text cr-text widget"><!--pseudo-hidden--><h3 class="textable css91">ОБРАБОТКА ПОМЕЩЕНИЯ</h3></div><div class="node css92 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css93">Специалист производит обработку помещения.</p></div></div></div></div></div></div></div></div><div class="s-elements-grid__cell cell-3"><div class="s-elements-grid__cellwrapper"><div class="cont cell"><div class="node css95 widget-element widget"><!--pseudo-hidden--><div class="cont"><div class="node css87 widget-element-number widget"><!--pseudo-hidden--><div class="metahtml css86"><div class="number">
+	04
+</div></div></div><div class="node css94 widget-element widget"><!--pseudo-hidden--><div class="wrapper1"><div class="wrapper2"></div></div><div class="cont"><div class="node css88 css89 widget-image widget"><!--pseudo-hidden--><div class="bgimage bg-cover" data-role="" style="background-position: center center; background-size: cover; background-image: url(&quot;памятка.jpg&quot;);" data-lazy-bgimage_quality="8"><div class="inner"><img class="" src="d5fceb6532643d0d84ffe09c40c481ecdf59e15a.gif" alt=""></div></div><noscript><img src="памятка-1.jpg" alt=""></noscript></div><div class="node css90 widget-text cr-text widget"><!--pseudo-hidden--><h3 class="textable css91">ИНСТРУКТАЖ</h3></div><div class="node css92 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css93">После обработки специалист проводит инструктаж и оставляет памятку.</p></div></div></div></div></div></div></div></div></div><div class="cont"></div></div><div class="padding_bottom"></div></div><div class="node css83 section-clear section"><!--pseudo-hidden--><div class="padding_top"></div><div class="wrapper1" data-lazy-bgimage_quality="8" style="background-image: url(&quot;26.png&quot;);"><div class="wrapper2"></div></div><div class="container"><div class="cont"><div class="node css100 widget-text cr-text widget"><!--pseudo-hidden--><h2 class="textable css39">Документы</h2></div><div class="node css40 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css60">Несем полную ответственность</p></div><div class="node css103 widget-grid widget"><!--pseudo-hidden--><div class="grid valign-middle paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 50%;"><div class="cont"><div class="node css101 css1 widget-image widget"><!--pseudo-hidden--><div class="xs-force-center bgnormal" style="text-align: center;"><a href="https://i.1.creatium.io/ef/14/01/1f4cf62cb38642a7d6cb2046a3c0250607/doc1.jpg" target="_blank" data-group="4" class="fancybox"><img class="" alt="" src="doc1.jpg" style="width: 372px;" data-lazy-image_quality="8"></a></div><noscript><img src="doc1-1.jpg" alt=""></noscript></div></div></div><div class="col" style="width: 50%;"><div class="cont"><div class="node css102 css1 widget-image widget"><!--pseudo-hidden--><div class="xs-force-center bgnormal" style="text-align: center;"><a href="https://i.1.creatium.io/0a/9b/f2/93eb29078d58773475dde398759a65bc16/doc2.jpg" target="_blank" data-group="4" class="fancybox"><img class="" alt="" src="doc2.jpg" style="width: 372px;" data-lazy-image_quality="8"></a></div><noscript><img src="doc2-1.jpg" alt=""></noscript></div></div></div></div></div></div></div></div><div class="padding_bottom"></div></div><div class="node css68 css109 section-elements section"><!--pseudo-hidden--><div class="corner bottom-float"></div><div class="padding_top"></div><div class="container"><div class="cont"><div class="node css58 widget-text cr-text widget"><!--pseudo-hidden--><h2 class="textable css39">Наша команда</h2></div><div class="node css59 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css60">Профессионалы с опытом более 10 лет каждый</p></div></div><div class="s-elements-grid valign-top use-table"><div class="s-elements-grid__cell cell-0"><div class="s-elements-grid__cellwrapper"><div class="cont cell"><div class="node css108 widget-element widget"><!--pseudo-hidden--><div class="cont"><div class="node css58 css1 widget-image widget"><!--pseudo-hidden--><div class="roundimage" style="text-align: center;"><div class="round" data-role="" style="border-radius: 50%; overflow: hidden; background-image: url(&quot;Буданов_Павел_Валерьевич.3a3b6472.fill-320x400_I0clsxn.jpg&quot;);" data-lazy-bgimage_quality="8"><img class="" src="d5fceb6532643d0d84ffe09c40c481ecdf59e15a.gif" alt="" style="width: 150px;"></div></div><noscript><img src="Буданов_Павел_Валерьевич.3a3b6472.fill-320x400_I0clsxn-1.jpg" alt=""></noscript></div><div class="node css104 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css105">Воронов Дмитрий</p></div><div class="node css106 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css107">Санэпидемиолог</p></div></div></div></div></div></div><div class="s-elements-grid__cell cell-1"><div class="s-elements-grid__cellwrapper"><div class="cont cell"><div class="node css108 widget-element widget"><!--pseudo-hidden--><div class="cont"><div class="node css58 css1 widget-image widget"><!--pseudo-hidden--><div class="roundimage" style="text-align: center;"><div class="round" data-role="" style="border-radius: 50%; overflow: hidden; background-image: url(&quot;articles-nid79959-97935.jpg&quot;);" data-lazy-bgimage_quality="8"><img class="" src="d5fceb6532643d0d84ffe09c40c481ecdf59e15a.gif" alt="" style="width: 150px;"></div></div><noscript><img src="articles-nid79959-97935-1.jpg" alt=""></noscript></div><div class="node css104 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css105">Павлова Ирина</p></div><div class="node css106 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css107">Врач энтомолог</p></div></div></div></div></div></div><div class="s-elements-grid__cell cell-2"><div class="s-elements-grid__cellwrapper"><div class="cont cell"><div class="node css108 widget-element widget"><!--pseudo-hidden--><div class="cont"><div class="node css58 css1 widget-image widget"><!--pseudo-hidden--><div class="roundimage" style="text-align: center;"><div class="round" data-role="" style="border-radius: 50%; overflow: hidden; background-image: url(&quot;320x320.jpg&quot;);" data-lazy-bgimage_quality="8"><img class="" src="d5fceb6532643d0d84ffe09c40c481ecdf59e15a.gif" alt="" style="width: 150px;"></div></div><noscript><img src="320x320-1.jpg" alt=""></noscript></div><div class="node css104 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css105">Андрей Смирнов</p></div><div class="node css106 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css107">Дезинфектор</p></div></div></div></div></div></div><div class="s-elements-grid__cell cell-3"><div class="s-elements-grid__cellwrapper"><div class="cont cell"><div class="node css108 widget-element widget"><!--pseudo-hidden--><div class="cont"><div class="node css58 css1 widget-image widget"><!--pseudo-hidden--><div class="roundimage" style="text-align: center;"><div class="round" data-role="" style="border-radius: 50%; overflow: hidden; background-image: url(&quot;master-1.jpg&quot;);" data-lazy-bgimage_quality="8"><img class="" src="d5fceb6532643d0d84ffe09c40c481ecdf59e15a.gif" alt="" style="width: 150px;"></div></div><noscript><img src="master-1-1.jpg" alt=""></noscript></div><div class="node css104 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css105">Павел Новгородцев</p></div><div class="node css106 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css107">Дезинфектор</p></div></div></div></div></div></div></div><div class="cont"></div></div><div class="padding_bottom"></div></div><div class="node css83 css84 section-elements section"><!--pseudo-hidden--><div class="corner bottom-float"></div><div class="padding_top"></div><div class="wrapper1" data-lazy-bgimage_quality="8" style="background-image: url(&quot;26.png&quot;);"><div class="wrapper2"></div></div><div class="container"><div class="cont"><div class="node css38 widget-text cr-text widget"><!--pseudo-hidden--><h2 class="textable css39">Свидетельства и декларации о соответствии препаратов</h2></div><div class="node css40 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css110">Все используемые нами препараты (Аламинол, Сепотосан-Т, Агран и другие) имеют государственную регистрацию, безопасны и соответствуют всем санитарным нормам.</p></div></div><div class="s-elements-grid valign-top use-flex"><div class="s-elements-grid__cell cell-0"><div class="s-elements-grid__cellwrapper"><div class="cont cell"><div class="node css82 widget-element widget"><!--pseudo-hidden--><div class="wrapper1"><div class="wrapper2"></div></div><div class="cont"><div class="node css81 css1 widget-image widget"><!--pseudo-hidden--><div class="xs-force-center bgnormal" style="text-align: center;"><a href="https://i.1.creatium.io/1f/f4/e4/e3255c589387469fd80ca5f34ab9b5c48c/doc4.jpg" target="_blank" data-group="6" class="fancybox"><img class="" alt="" src="doc4.jpg" style="width: 744px;" data-lazy-image_quality="8"></a></div><noscript><img src="doc4-1.jpg" alt=""></noscript></div></div></div></div></div></div><div class="s-elements-grid__cell cell-1"><div class="s-elements-grid__cellwrapper"><div class="cont cell"><div class="node css82 widget-element widget"><!--pseudo-hidden--><div class="wrapper1"><div class="wrapper2"></div></div><div class="cont"><div class="node css81 css1 widget-image widget"><!--pseudo-hidden--><div class="xs-force-center bgnormal" style="text-align: center;"><a href="https://i.1.creatium.io/d1/01/8b/f96b1515054012fc73699cfd21db1a0f1b/doc5.jpg" target="_blank" data-group="6" class="fancybox"><img class="" alt="" src="doc5.jpg" style="width: 744px;" data-lazy-image_quality="8"></a></div><noscript><img src="doc5-1.jpg" alt=""></noscript></div></div></div></div></div></div><div class="s-elements-grid__cell cell-2"><div class="s-elements-grid__cellwrapper"><div class="cont cell"><div class="node css82 widget-element widget"><!--pseudo-hidden--><div class="wrapper1"><div class="wrapper2"></div></div><div class="cont"><div class="node css81 css1 widget-image widget"><!--pseudo-hidden--><div class="xs-force-center bgnormal" style="text-align: center;"><a href="https://i.1.creatium.io/89/e0/03/ad98a6c5dbf7444cb3429ee0d1e275933d/doc6.jpg" target="_blank" data-group="6" class="fancybox"><img class="" alt="" src="doc6.jpg" style="width: 744px;" data-lazy-image_quality="8"></a></div><noscript><img src="doc6-1.jpg" alt=""></noscript></div></div></div></div></div></div><div class="s-elements-grid__cell cell-3"><div class="s-elements-grid__cellwrapper"><div class="cont cell"><div class="node css82 widget-element widget"><!--pseudo-hidden--><div class="wrapper1"><div class="wrapper2"></div></div><div class="cont"><div class="node css81 css1 widget-image widget"><!--pseudo-hidden--><div class="xs-force-center bgnormal" style="text-align: center;"><a href="https://i.1.creatium.io/c0/9b/6a/5892978567017a78c6692191813a55360a/doc3.jpg" target="_blank" data-group="6" class="fancybox"><img class="" alt="" src="doc3.jpg" style="width: 744px;" data-lazy-image_quality="8"></a></div><noscript><img src="doc3-1.jpg" alt=""></noscript></div></div></div></div></div></div></div><div class="cont"></div></div><div class="padding_bottom"></div></div><div class="node css118 section-clear section"><!--pseudo-hidden--><div class="padding_top"></div><div class="wrapper1"><div class="wrapper2"></div></div><div class="container"><div class="cont"><div class="node css36 widget-text cr-text widget"><!--pseudo-hidden--><h2 class="textable css39">Часто задаваемые вопросы<span>&nbsp;</span></h2></div><div class="node css85 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css60">Самые популярные вопросы<span>&nbsp;</span></p></div><div class="node css114 widget-spoiler cr-spoiler widget"><!--pseudo-hidden--><div class="metahtml css111"><div class="spoiler1">
+  <div cr-spoiler-toggle="" il-action="toggle" class="spoiler1-toggle is-expanded">
+    <i class="fa fa-plus"></i>
+    <i class="fa fa-minus"></i>
+  </div>
+  <div cr-spoiler-toggle="" il-action="toggle" class="spoiler1-header font-header is-expanded">
+    <p class="textable css115">Сколько времени потребуется на обработку квартиры? Как подготовить помещение?</p>
+  </div>
+  <div cr-spoiler-container="" class="spoiler1-container is-expanded" style="display: block;">
+    <div class="cont"><div class="node css112 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css113">От 30 до 60 минут</p></div></div>
+  </div>
+</div></div></div><div class="node css114 widget-spoiler cr-spoiler widget"><!--pseudo-hidden--><div class="metahtml css111"><div class="spoiler1">
+  <div cr-spoiler-toggle="" il-action="toggle" class="spoiler1-toggle is-expanded">
+    <i class="fa fa-plus"></i>
+    <i class="fa fa-minus"></i>
+  </div>
+  <div cr-spoiler-toggle="" il-action="toggle" class="spoiler1-header font-header is-expanded">
+    <p class="textable css115">Какие препараты используют? Можно ли за один раз уничтожить?</p>
+  </div>
+  <div cr-spoiler-container="" class="spoiler1-container is-expanded" style="display: block;">
+    <div class="cont"><div class="node css112 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css113">Мы используем только современные, сертифицированные препараты, безопасные для людей и теплокровных животных. В 99% случаев после первой обработки все насекомые погибают и только в 1% случаев требуется повторная обработка.</p></div></div>
+  </div>
+</div></div></div><div class="node css114 widget-spoiler cr-spoiler widget"><!--pseudo-hidden--><div class="metahtml css111"><div class="spoiler1">
+  <div cr-spoiler-toggle="" il-action="toggle" class="spoiler1-toggle is-expanded">
+    <i class="fa fa-plus"></i>
+    <i class="fa fa-minus"></i>
+  </div>
+  <div cr-spoiler-toggle="" il-action="toggle" class="spoiler1-header font-header is-expanded">
+    <p class="textable css115">Что значит Обработка с гарантией» и что в нее входит?</p>
+  </div>
+  <div cr-spoiler-container="" class="spoiler1-container is-expanded" style="display: block;">
+    <div class="cont"><div class="node css112 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css113">По факту выполненных работ, выписывается гарантийная квитанция, в которой прописаны гарантийные обязательства. В гарантию входит одна повторная бесплатная обработка, в течении гарантийного срока. Гарантийный срок от 6 до 12 месяцев, в зависимости от выбранного Вами тарифа. На практике необходимость повторной обработки возникает очень редко - 1 случай из 100.</p></div></div>
+  </div>
+</div></div></div><div class="node css114 widget-spoiler cr-spoiler widget"><!--pseudo-hidden--><div class="metahtml css111"><div class="spoiler1">
+  <div cr-spoiler-toggle="" il-action="toggle" class="spoiler1-toggle is-expanded">
+    <i class="fa fa-plus"></i>
+    <i class="fa fa-minus"></i>
+  </div>
+  <div cr-spoiler-toggle="" il-action="toggle" class="spoiler1-header font-header is-expanded">
+    <p class="textable css115">Насколько безопасна процедура дезинфекции / дезинсекции в жилой квартире / на даче / на объекте?</p>
+  </div>
+  <div cr-spoiler-container="" class="spoiler1-container is-expanded" style="display: block;">
+    <div class="cont"><div class="node css112 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css113">Мы применяем только сертифицированные средства, одобренные Роспотребнадзором РФ. Препараты самого низкого класса опасности 4 и 5.</p></div></div>
+  </div>
+</div></div></div><div class="node css114 widget-spoiler cr-spoiler widget"><!--pseudo-hidden--><div class="metahtml css111"><div class="spoiler1">
+  <div cr-spoiler-toggle="" il-action="toggle" class="spoiler1-toggle is-expanded">
+    <i class="fa fa-plus"></i>
+    <i class="fa fa-minus"></i>
+  </div>
+  <div cr-spoiler-toggle="" il-action="toggle" class="spoiler1-header font-header is-expanded">
+    <p class="textable css115">Подготовка помещений к дезинсекции (тараканы, муравьи)</p>
+  </div>
+  <div cr-spoiler-container="" class="spoiler1-container is-expanded" style="display: block;">
+    <div class="cont"><div class="node css112 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css116"><strong>Кухня:</strong><br><br></p></div><div class="node css112 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css117"></p><ul><li><span style="color: rgb(0, 0, 0);">Отодвинуть от стен на 30см плиту, холодильник, нижнюю часть кухонного гарнитура (если не встроенный)</span></li><li><span style="color: rgb(0, 0, 0);">Освободить кухонные шкафы от посуды и пищевых продуктов.</span></li><li><span style="color: rgb(0, 0, 0);">Продукты в открытом доступе не оставлять (убрать в холодильник или завернуть плотно в пакеты).</span></li><li><span style="color: rgb(0, 0, 0);">Накрыть бытовую технику (чайник, кофеварка , и т.д.)</span></li></ul><p></p></div><div class="node css112 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css116"><strong>Санузел (туалет, ванная комната):</strong><br><br></p></div><div class="node css112 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css117"></p><ul><li><span style="color: rgb(0, 0, 0);">Убрать все предметы гигиены (зубные щетки, мочалки, полотенца, и т.д.)<br></span></li><li><span style="color: rgb(0, 0, 0);">По возможности освободить доступ под ванну.<br></span></li><li><span style="color: rgb(0, 0, 0);">Отодвинуть стиральную машину на 30 см. от стены.<br></span></li><li><span style="color: rgb(0, 0, 0);">Убрать коврики и половики.</span></li></ul><p></p></div><div class="node css112 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css116"><strong>Комнаты и прихожая:</strong><br><br></p></div><div class="node css112 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css117"></p><ul><li><span style="color: rgb(0, 0, 0);">Максимально подготовить доступ к плинтусам и стенам (отодвинуть легкую мебель, предметы интерьера).&nbsp;</span></li><li><span style="color: rgb(0, 0, 0);">Максимально освободить доступ к полу (ковры свернуть; стулья, вещи с пола поднять, можно на столы на спальные места.)<br></span></li></ul><p></p></div><div class="node css112 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css116"><strong>Уборка после дезинсекции:</strong><br><br></p></div><div class="node css112 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css117"></p><ul><li><span style="color: rgb(0, 0, 0);">Обработанные помещения проветривать в отсутствии людей и животных не менее 2-3 часов.&nbsp;</span></li><li><span style="color: rgb(0, 0, 0);">После проветривания провести влажную уборку: мыльно-содовым раствором протереть основные поверхности, с которыми происходит контакт (столешницы, столы, стулья, ручки на дверях ,и т.д.)&nbsp;</span></li><li><span style="color: rgb(0, 0, 0);">Пол не мыть 3 дня! После можно помыть середину, по краям не мыть 21 день !!!<br></span></li></ul><p></p></div></div>
+  </div>
+</div></div></div><div class="node css114 widget-spoiler cr-spoiler widget"><!--pseudo-hidden--><div class="metahtml css111"><div class="spoiler1">
+  <div cr-spoiler-toggle="" il-action="toggle" class="spoiler1-toggle is-expanded">
+    <i class="fa fa-plus"></i>
+    <i class="fa fa-minus"></i>
+  </div>
+  <div cr-spoiler-toggle="" il-action="toggle" class="spoiler1-header font-header is-expanded">
+    <p class="textable css115">Подготовка помещений к дезинсекции (клопы)</p>
+  </div>
+  <div cr-spoiler-container="" class="spoiler1-container is-expanded" style="display: block;">
+    <div class="cont"><div class="node css112 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css116"><strong>Комнаты и прихожая:</strong><br><br></p></div><div class="node css112 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css117"></p><ul><li><span style="color: rgb(0, 0, 0);">Максимально подготовить доступ к плинтусам и стенам (отодвинуть легкую мебель, предметы интерьера).&nbsp;</span></li><li><span style="color: rgb(0, 0, 0);">С диванов убрать все вещи, как сверху, так и изнутри.&nbsp;</span></li><li><span style="color: rgb(0, 0, 0);">По возможности диваны разобрать на части.&nbsp;</span></li><li><span style="color: rgb(0, 0, 0);">На кроватях оставляете только матрасы.&nbsp;</span></li><li><span style="color: rgb(0, 0, 0);">Со стен снять картины, фоторамки и ковры.</span></li></ul><p></p></div><div class="node css112 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css116"><strong>Уборка после дезинсекции:</strong><br><br></p></div><div class="node css112 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css117"></p><ul><li><span style="color: rgb(0, 0, 0);">Обработанные помещения проветривать в отсутствии людей и животных не менее 2-3 часов.&nbsp;</span></li><li><span style="color: rgb(0, 0, 0);">После проветривания провести влажную уборку: мыльно-содовым раствором протереть основные поверхности, с которыми происходит контакт (столешницы, столы, стулья, ручки на дверях , и т.д.).&nbsp;</span></li><li><span style="color: rgb(0, 0, 0);">Пол можно помыть середину, по краям не мыть 21 день!<br></span></li></ul><p></p></div></div>
+  </div>
+</div></div></div><div class="node css114 widget-spoiler cr-spoiler widget"><!--pseudo-hidden--><div class="metahtml css111"><div class="spoiler1">
+  <div cr-spoiler-toggle="" il-action="toggle" class="spoiler1-toggle is-expanded">
+    <i class="fa fa-plus"></i>
+    <i class="fa fa-minus"></i>
+  </div>
+  <div cr-spoiler-toggle="" il-action="toggle" class="spoiler1-header font-header is-expanded">
+    <p class="textable css115">Какие расценки на услуги?</p>
+  </div>
+  <div cr-spoiler-container="" class="spoiler1-container is-expanded" style="display: block;">
+    <div class="cont"><div class="node css112 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css113">Стоимость наших услуг вы можете узнать у наших операторов по телефону, указанному на сайте. Назовите им тип вредителя (клопы, тараканы, муравьи, блохи и т.д.) и объект (комната, гостинка, 1- комнатная квартира, частный дом и т.д.), вы узнаете сколько стоит обработка, а также сможете вызвать нашу службу СЭС. Стоимость услуг согласно тарифам и не меняется.</p></div></div>
+  </div>
+</div></div></div><div class="node css114 widget-spoiler cr-spoiler widget"><!--pseudo-hidden--><div class="metahtml css111"><div class="spoiler1">
+  <div cr-spoiler-toggle="" il-action="toggle" class="spoiler1-toggle is-expanded">
+    <i class="fa fa-plus"></i>
+    <i class="fa fa-minus"></i>
+  </div>
+  <div cr-spoiler-toggle="" il-action="toggle" class="spoiler1-header font-header is-expanded">
+    <p class="textable css115">Несколько раз вызывали санитарную службу, но проблема осталась. С чем это связано?</p>
+  </div>
+  <div cr-spoiler-container="" class="spoiler1-container is-expanded" style="display: block;">
+    <div class="cont"><div class="node css112 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css113">Чтобы на 100% решить проблему навсегда требуется: Грамотно оценить степень заражения помещения для адекватного выбора препарата. Рассчитать оптимальную концентрацию химиката в рабочем растворе. Соблюсти технологию мероприятий по обработке. Информировать заказчика о мерах профилактики после дезинфекции. Несоблюдение хотя бы одного из пунктов снижает вероятность результата.</p></div></div>
+  </div>
+</div></div></div><div class="node css114 widget-spoiler cr-spoiler widget"><!--pseudo-hidden--><div class="metahtml css111"><div class="spoiler1">
+  <div cr-spoiler-toggle="" il-action="toggle" class="spoiler1-toggle is-expanded">
+    <i class="fa fa-plus"></i>
+    <i class="fa fa-minus"></i>
+  </div>
+  <div cr-spoiler-toggle="" il-action="toggle" class="spoiler1-header font-header is-expanded">
+    <p class="textable css115">Можно ли вызвать службу ночью, если днем нет времени?</p>
+  </div>
+  <div cr-spoiler-container="" class="spoiler1-container is-expanded" style="display: block;">
+    <div class="cont"><div class="node css112 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css113">Да, мы работаем круглосуточно 24 часа и без выходных, поэтому вы можете обратиться в нашу службу и заказать вызов на дом дезинфектора ночью или вызвать его на удобное вам время. Вы можете позвонить по телефону или оставить заявку на сайте и мы с вами свяжемся.</p></div></div>
+  </div>
+</div></div></div><div class="node css114 widget-spoiler cr-spoiler widget"><!--pseudo-hidden--><div class="metahtml css111"><div class="spoiler1">
+  <div cr-spoiler-toggle="" il-action="toggle" class="spoiler1-toggle is-expanded">
+    <i class="fa fa-plus"></i>
+    <i class="fa fa-minus"></i>
+  </div>
+  <div cr-spoiler-toggle="" il-action="toggle" class="spoiler1-header font-header is-expanded">
+    <p class="textable css115">Обработка самостоятельно возможна?</p>
+  </div>
+  <div cr-spoiler-container="" class="spoiler1-container is-expanded" style="display: block;">
+    <div class="cont"><div class="node css112 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css117">В большинстве случаев, самостоятельная обработка малоэффективна, так как препараты для бытового использования воздействуют только на ИМАГО (взрослые особи). Но не имеют воздействия на яйца и личинки насекомых. Препараты, которые используют наши специалисты, являются профессиональными.</p></div></div>
+  </div>
+</div></div></div></div></div><div class="padding_bottom"></div></div><div class="node css83 section-clear section" id="contacts"><!--pseudo-hidden--><div class="padding_top"></div><div class="wrapper1" data-lazy-bgimage_quality="8" style="background-image: url(&quot;26.png&quot;);"><div class="wrapper2"></div></div><div class="container"><div class="cont"><div class="node css119 widget-text cr-text widget"><!--pseudo-hidden--><h2 class="textable css39">Как с нами связаться</h2></div><div class="node css40 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css120">Работаем без перерывов и выходных</p></div><div class="node css38 widget-grid widget"><!--pseudo-hidden--><div class="grid valign-middle paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 50%;"><div class="cont"><div class="node css38 widget-text cr-text widget"><!--pseudo-hidden--><h3 class="textable css121">АДРЕС</h3></div><div class="node css122 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css123">Новосибирск, ул. Дмитрия Шмонина 10/1</p></div><div class="node css38 widget-text cr-text widget"><!--pseudo-hidden--><h3 class="textable css121">ТЕЛЕФОН</h3></div><div class="node css124 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css123"><a href="tel:+73832021985">+7 (383) 202-19-85</a></p></div><div class="node css125 widget-text cr-text widget"><!--pseudo-hidden--><h3 class="textable css121">EMAIL</h3></div><div class="node css127 widget-button widget"><!--pseudo-hidden--><div class="macros-button"><div class="btn-out left xs-center"><a class="btn-inner" href="mailto:dzcontrol@yandex.ru" target="_blank"><button class="btn css126 font-text" data-action="link" data-highlight="true"><div class="pad-left" style="width: 0px;"></div><div class="btn-content"><span class="text">dzcontrol@yandex.ru
+</span></div><div class="pad-right" style="width: 0px;"></div></button></a></div></div></div></div></div><div class="col" style="width: 50%;"><div class="cont"><div class="node css136 widget-element widget"><!--pseudo-hidden--><div class="wrapper1"><div class="wrapper2"></div></div><div class="cont"><div class="node css135 widget-form2 cr-form widget" data-form="{&quot;name&quot;:&quot;Форма&quot;,&quot;after&quot;:&quot;msg&quot;,&quot;msg&quot;:&quot;Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!&quot;,&quot;url&quot;:&quot;/thankyou&quot;,&quot;addhtml&quot;:&quot;<!-- Этот код будет вставлен перед закрывающим тегом BODY -->&quot;,&quot;js&quot;:&quot;alert(\&quot;Этот код выполняется после успешного отправления заявки.\&quot;);&quot;,&quot;sequence&quot;:&quot;stepwise&quot;}" data-isquiz="false"><!--pseudo-hidden--><div style="max-width: 384px; position: relative; margin-left: auto; margin-right: auto;"><div class="metahtml css128"><div class="form1-cover">
+	<div cr-form-container="" colorside="cover_bgcolored?cover_bgcolor.colorside():_colorside"><div class="cont"><div class="node css129 widget-text cr-text widget"><!--pseudo-hidden--><h3 class="textable css130">КАК СВЯЗАТЬСЯ С НАМИ</h3></div><div class="node css132 widget-field cr-field widget"><!--pseudo-hidden--><div class="metahtml css131" data-vals="{&quot;name&quot;:&quot;HTML-компонент&quot;,&quot;html&quot;:&quot;&quot;,&quot;css&quot;:&quot;&quot;,&quot;meta_js&quot;:&quot;&quot;,&quot;meta_js_lazy&quot;:true,&quot;encapsulation&quot;:true,&quot;embeds&quot;:[],&quot;meta_cdn&quot;:[],&quot;tabs&quot;:[{&quot;id&quot;:&quot;main&quot;,&quot;name&quot;:&quot;Главные&quot;}],&quot;variables&quot;:[],&quot;type&quot;:&quot;name&quot;,&quot;text&quot;:&quot;Имя&quot;,&quot;hidename&quot;:false,&quot;list&quot;:[{&quot;text&quot;:&quot;Гамбургер&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.platformalp.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 1&quot;},{&quot;text&quot;:&quot;Чай&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.platformalp.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 2&quot;},{&quot;text&quot;:&quot;Мороженное&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.platformalp.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0}],&quot;visual_width&quot;:30,&quot;visual_height&quot;:100,&quot;required&quot;:false,&quot;id&quot;:&quot;&quot;,&quot;min&quot;:&quot;0&quot;,&quot;max&quot;:&quot;100&quot;,&quot;step&quot;:&quot;1&quot;,&quot;align&quot;:&quot;sides&quot;,&quot;fontsize&quot;:120,&quot;typing&quot;:&quot;string&quot;,&quot;format&quot;:&quot;%result% руб.&quot;,&quot;formula&quot;:&quot;&quot;,&quot;condition&quot;:&quot;&quot;,&quot;template&quot;:&quot;&quot;,&quot;variable&quot;:&quot;&quot;,&quot;valueOn&quot;:&quot;1&quot;,&quot;valueOff&quot;:&quot;0&quot;,&quot;privacy_button&quot;:&quot;Политика конфиденциальности&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;privacy_text&quot;:&quot;Нажимая кнопку, вы даете согласие на <обработку персональных данных>&quot;,&quot;privacy_source&quot;:&quot;/privacy&quot;}"><div cr-field="name" class="is-text">
+  <div class="name">
+    Имя 
+  </div>
+  <div class="input">
+    <input type="text" il-action="listen" autocomplete="name" class="form-control" value="">
+  </div>
+  <div cr-field-addon=""><div class="metahtml"></div></div>
+</div></div></div><div class="node css132 widget-field cr-field widget"><!--pseudo-hidden--><div class="metahtml css131" data-vals="{&quot;name&quot;:&quot;HTML-компонент&quot;,&quot;html&quot;:&quot;&quot;,&quot;css&quot;:&quot;&quot;,&quot;meta_js&quot;:&quot;&quot;,&quot;meta_js_lazy&quot;:true,&quot;encapsulation&quot;:true,&quot;embeds&quot;:[],&quot;meta_cdn&quot;:[],&quot;tabs&quot;:[{&quot;id&quot;:&quot;main&quot;,&quot;name&quot;:&quot;Главные&quot;}],&quot;variables&quot;:[],&quot;type&quot;:&quot;phone&quot;,&quot;text&quot;:&quot;Номер телефона&quot;,&quot;hidename&quot;:false,&quot;list&quot;:[{&quot;text&quot;:&quot;Гамбургер&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.platformalp.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 1&quot;},{&quot;text&quot;:&quot;Чай&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.platformalp.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 2&quot;},{&quot;text&quot;:&quot;Мороженное&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.platformalp.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0}],&quot;visual_width&quot;:30,&quot;visual_height&quot;:100,&quot;required&quot;:true,&quot;id&quot;:&quot;&quot;,&quot;min&quot;:&quot;0&quot;,&quot;max&quot;:&quot;100&quot;,&quot;step&quot;:&quot;1&quot;,&quot;align&quot;:&quot;sides&quot;,&quot;fontsize&quot;:120,&quot;typing&quot;:&quot;string&quot;,&quot;format&quot;:&quot;%result% руб.&quot;,&quot;formula&quot;:&quot;&quot;,&quot;condition&quot;:&quot;&quot;,&quot;template&quot;:&quot;&quot;,&quot;variable&quot;:&quot;&quot;,&quot;valueOn&quot;:&quot;1&quot;,&quot;valueOff&quot;:&quot;0&quot;,&quot;privacy_button&quot;:&quot;Политика конфиденциальности&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;privacy_text&quot;:&quot;Нажимая кнопку, вы даете согласие на <обработку персональных данных>&quot;,&quot;privacy_source&quot;:&quot;/privacy&quot;}"><div cr-field="phone" class="is-text">
+  <div class="name">
+    Номер телефона *
+  </div>
+  <div class="input">
+    <input type="text" il-action="listen" autocomplete="tel" class="form-control" value="" pattern="[0-9a-zA-Z-() +]{18}" title="Введите телефонный номер в формате +7 (495) 123-45-67" maxlength="18">
+  </div>
+  <div cr-field-addon=""><div class="metahtml"></div></div>
+</div></div></div><div class="node css133 widget-field cr-field widget"><!--pseudo-hidden--><div class="metahtml css131" data-vals="{&quot;name&quot;:&quot;HTML-компонент&quot;,&quot;html&quot;:&quot;&quot;,&quot;css&quot;:&quot;&quot;,&quot;meta_js&quot;:&quot;&quot;,&quot;meta_js_lazy&quot;:true,&quot;encapsulation&quot;:true,&quot;embeds&quot;:[],&quot;meta_cdn&quot;:[],&quot;tabs&quot;:[{&quot;id&quot;:&quot;main&quot;,&quot;name&quot;:&quot;Главные&quot;}],&quot;variables&quot;:[],&quot;type&quot;:&quot;textarea&quot;,&quot;text&quot;:&quot;Сообщение&quot;,&quot;hidename&quot;:false,&quot;list&quot;:[{&quot;text&quot;:&quot;Гамбургер&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.platformalp.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 1&quot;},{&quot;text&quot;:&quot;Чай&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.platformalp.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 2&quot;},{&quot;text&quot;:&quot;Мороженное&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.platformalp.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0}],&quot;visual_width&quot;:30,&quot;visual_height&quot;:100,&quot;required&quot;:false,&quot;id&quot;:&quot;&quot;,&quot;min&quot;:&quot;0&quot;,&quot;max&quot;:&quot;100&quot;,&quot;step&quot;:&quot;1&quot;,&quot;align&quot;:&quot;sides&quot;,&quot;fontsize&quot;:120,&quot;typing&quot;:&quot;string&quot;,&quot;format&quot;:&quot;%result% руб.&quot;,&quot;formula&quot;:&quot;&quot;,&quot;condition&quot;:&quot;&quot;,&quot;template&quot;:&quot;&quot;,&quot;variable&quot;:&quot;&quot;,&quot;valueOn&quot;:&quot;1&quot;,&quot;valueOff&quot;:&quot;0&quot;,&quot;privacy_button&quot;:&quot;Политика конфиденциальности&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;privacy_text&quot;:&quot;Нажимая кнопку, вы даете согласие на <обработку персональных данных>&quot;,&quot;privacy_source&quot;:&quot;/privacy&quot;}"><div cr-field="textarea" class="is-text">
+  <div class="name">
+    Сообщение 
+  </div>
+  <div class="input">
+    <textarea il-action="listen" class="form-control"></textarea>
+  </div>
+  <div cr-field-addon=""><div class="metahtml"></div></div>
+</div></div></div><div class="node css132 widget-field cr-field widget"><!--pseudo-hidden--><div class="metahtml css131 hidden" data-vals="{&quot;name&quot;:&quot;HTML-компонент&quot;,&quot;html&quot;:&quot;&quot;,&quot;css&quot;:&quot;&quot;,&quot;meta_js&quot;:&quot;&quot;,&quot;meta_js_lazy&quot;:true,&quot;encapsulation&quot;:true,&quot;embeds&quot;:[],&quot;meta_cdn&quot;:[],&quot;tabs&quot;:[{&quot;id&quot;:&quot;main&quot;,&quot;name&quot;:&quot;Главные&quot;}],&quot;variables&quot;:[],&quot;type&quot;:&quot;hidden&quot;,&quot;text&quot;:&quot;roistat_visit&quot;,&quot;hidename&quot;:false,&quot;list&quot;:[{&quot;text&quot;:&quot;Гамбургер&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.platformalp.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 1&quot;},{&quot;text&quot;:&quot;Чай&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.platformalp.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 2&quot;},{&quot;text&quot;:&quot;Мороженное&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.platformalp.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0}],&quot;visual_width&quot;:30,&quot;visual_height&quot;:100,&quot;required&quot;:true,&quot;id&quot;:&quot;roistat_visit&quot;,&quot;min&quot;:&quot;0&quot;,&quot;max&quot;:&quot;100&quot;,&quot;step&quot;:&quot;1&quot;,&quot;align&quot;:&quot;sides&quot;,&quot;fontsize&quot;:120,&quot;typing&quot;:&quot;string&quot;,&quot;format&quot;:&quot;%result% руб.&quot;,&quot;formula&quot;:&quot;&quot;,&quot;condition&quot;:&quot;&quot;,&quot;template&quot;:&quot;&quot;,&quot;variable&quot;:&quot;&quot;,&quot;valueOn&quot;:&quot;1&quot;,&quot;valueOff&quot;:&quot;0&quot;,&quot;privacy_button&quot;:&quot;Политика конфиденциальности&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;privacy_text&quot;:&quot;Нажимая кнопку, вы даете согласие на <обработку персональных данных>&quot;,&quot;privacy_source&quot;:&quot;/privacy&quot;}"><div cr-field="hidden">
+  <div class="name">roistat_visit</div>
+  <div class="input">
+    
+    <input type="hidden" il-action="listen" class="form-control only-for-production" value="">
+  </div>
+  <div cr-field-addon=""><div class="metahtml"></div></div>
+</div></div></div><div class="node css134 widget-button widget"><!--pseudo-hidden--><div class="macros-button"><div class="btn-out full xs-none"><div class="btn-inner"><button class="btn css27 font-text" data-action="send" data-highlight="false"><div class="pad-left" style="width: 28px;"></div><div class="btn-content"><span class="text">Отправить заявку</span></div><div class="pad-right" style="width: 28px;"></div></button></div></div></div></div></div></div>
+</div></div></div></div></div></div></div></div></div></div></div></div></div><div class="padding_bottom"></div></div><!-- COMMON ukasjt5w729spmjo8f5c --><div class="node css9 section-clear section font-text-ttnormsregular font-header-ttnormsmedium" data-common="ukasjt5w729spmjo8f5c"><!--pseudo-hidden--><div class="padding_top"></div><div class="wrapper1"><div class="wrapper2"></div></div><div class="container"><div class="cont"><div class="node css138 widget-grid widget"><!--pseudo-hidden--><div class="grid valign-middle paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 22.4229%;"><div class="cont"><div class="node css4 css1 widget-image widget"><!--pseudo-hidden--><div class="xs-force-center bgnormal" style="text-align: center;"><img class="" alt="" src="tild3137-3835-4661-a135-633732343062__6114d72e762b7cf0afec-2.png" data-lazy-image_quality="8" style="width: 400px;"></div><noscript><img src="tild3137-3835-4661-a135-633732343062__6114d72e762b7cf0afec-3.png" alt=""></noscript></div></div></div><div class="col" style="width: 51.212%;"><div class="cont"><div class="node css4 widget-menu widget"><!--pseudo-hidden--><div class="w-menu-grid right xs-center"><div class="w-menu-grid__cell" style="padding-left: 0px; padding-right: 0px;"><div class="cont cell"><div class="node css4 widget-menu-button cr-menu-button widget"><!--pseudo-hidden--><div class="macros-button"><div class="btn-out center xs-none"><a class="btn-inner" href="#ceny" target="_self"><button class="btn css137 font-text" data-action="link" data-highlight="true"><div class="pad-left" style="width: 15px;"></div><div class="btn-content"><span class="text">Стоимость</span></div><div class="pad-right" style="width: 15px;"></div></button></a></div></div></div></div></div><div class="w-menu-grid__cell" style="padding-left: 0px; padding-right: 0px;"><div class="cont cell"><div class="node css4 widget-menu-button cr-menu-button widget"><!--pseudo-hidden--><div class="macros-button"><div class="btn-out center xs-none"><a class="btn-inner" href="#uslugi" target="_self"><button class="btn css137 font-text" data-action="link" data-highlight="true"><div class="pad-left" style="width: 15px;"></div><div class="btn-content"><span class="text">Услуги</span></div><div class="pad-right" style="width: 15px;"></div></button></a></div></div></div></div></div><div class="w-menu-grid__cell" style="padding-left: 0px; padding-right: 0px;"><div class="cont cell"><div class="node css4 widget-menu-button cr-menu-button widget"><!--pseudo-hidden--><div class="macros-button"><div class="btn-out center xs-none"><a class="btn-inner" href="#guarantee" target="_self"><button class="btn css137 font-text" data-action="link" data-highlight="true"><div class="pad-left" style="width: 15px;"></div><div class="btn-content"><span class="text">Гарантии</span></div><div class="pad-right" style="width: 15px;"></div></button></a></div></div></div></div></div><div class="w-menu-grid__cell" style="padding-left: 0px; padding-right: 0px;"><div class="cont cell"><div class="node css4 widget-menu-button cr-menu-button widget"><!--pseudo-hidden--><div class="macros-button"><div class="btn-out center xs-none"><a class="btn-inner" href="#otzivi" target="_self"><button class="btn css137 font-text hover" data-action="link" data-highlight="true"><div class="pad-left" style="width: 15px;"></div><div class="btn-content"><span class="text">Отзывы</span></div><div class="pad-right" style="width: 15px;"></div></button></a></div></div></div></div></div><div class="w-menu-grid__cell" style="padding-left: 0px; padding-right: 0px;"><div class="cont cell"><div class="node css4 widget-menu-button cr-menu-button widget"><!--pseudo-hidden--><div class="macros-button"><div class="btn-out center xs-none"><a class="btn-inner" href="#contacts" target="_self"><button class="btn css137 font-text" data-action="link" data-highlight="true"><div class="pad-left" style="width: 15px;"></div><div class="btn-content"><span class="text">Контакты</span></div><div class="pad-right" style="width: 15px;"></div></button></a></div></div></div></div></div></div></div></div></div><div class="col" style="width: 26.3651%;"><div class="cont"><div class="node css7 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css8">Новосибирск и НСО<br><a href="tel:+73832021985" style="color: rgb(255, 255, 255);">+7 (383) 202-19-85</a><br>Горячая линия 24/7</p></div></div></div></div></div></div></div></div><div class="padding_bottom"></div></div><div class="node css144 section-clear section fixation-bottom fixed" data-opacity="0.95" style="opacity: 0.95;"><!--pseudo-hidden--><div class="padding_top"></div><div class="wrapper1"><div class="wrapper2"></div></div><div class="container"><div class="cont"><div class="node css139 widget-grid widget"><!--pseudo-hidden--><div class="grid valign-middle paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 50%;"><div class="cont"><div class="node css139 widget-text cr-text widget"><!--pseudo-hidden--><p class="textable css140"><strong><span style="font-size: 1.625em;">Звоните по телефону горячей линии:</span></strong></p></div></div></div><div class="col" style="width: 50%;"><div class="cont"><div class="node css139 widget-imagedtext widget"><!--pseudo-hidden--><div class="tbl middle xs-force-center"><div class="td icon" style="width: 44px;"><div class="wrap"><div><img class="" src="78d56b1523a8e8de93a576cce60381d85d70784d.png" style="width: 44px; height: 44px;"><svg class="svgicon css141 css142" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" style="border-radius: 50%;"><rect x="0" y="0" width="128" height="128" style="stroke: rgb(255, 255, 255); fill: none; stroke-width: 7.68" rx="64" ry="64"></rect><g transform="scale(0.7) translate(27.428571428571434, 27.428571428571434)"><path class="st0" d="M48.097,15.739c0.042-0.004,0.079-0.006,0.112-0.008c0.031,0.075,0.068,0.179,0.109,0.313 c0.017,0.057,0.036,0.112,0.057,0.168l8.195,22.154c0.035,0.092,0.058,0.192,0.069,0.281c-1.168,0.762-1.632,2.285-1.027,3.587 c0.482,1.04,1.513,1.651,2.587,1.651c0.402,0,0.81-0.085,1.198-0.266c2.961-1.374,3.493-4.719,2.503-7.272l-8.152-22.037 c-0.935-3-3.111-4.505-6.136-4.252c-1.568,0.134-2.731,1.515-2.598,3.082C45.149,14.709,46.518,15.865,48.097,15.739z"></path><path class="st0" d="M79.297,82.402c-0.534-0.539-1.26-0.843-2.019-0.845c-0.003,0-0.005,0-0.007,0 c-0.756,0-1.48,0.301-2.016,0.835c-0.507,0.506-0.895,0.949-1.257,1.363c-0.622,0.712-0.996,1.142-1.903,1.748 c-0.697,0.463-1.681,0.13-2.222-0.68l-22.249-33.52c-0.615-0.921-0.49-2.266,0.25-2.762c0.883-0.587,1.017-0.636,1.66-0.863 c0.447-0.159,1.057-0.375,2.029-0.788c1.419-0.602,2.103-2.221,1.544-3.657L41.862,14.338c-0.285-0.731-0.858-1.313-1.585-1.608 c-0.729-0.294-1.544-0.276-2.257,0.05c-3.831,1.753-7.168,4.017-10.226,6.945c-3.212,3.148-6.564,7.769-7.799,10.745 c-0.172,0.412-0.243,0.859-0.21,1.304c0.908,12.188,9.079,31.691,20.329,48.529c11.075,16.58,26.313,31.943,37.057,37.36 c0.398,0.2,0.838,0.305,1.283,0.305h0.003c4.213-0.004,9.75-2.174,11.962-3.118c4.092-1.797,8.318-4.367,10.518-6.397 c0.568-0.524,0.899-1.257,0.917-2.03s-0.28-1.52-0.824-2.069L79.297,82.402z"></path><path class="st0" d="M106.854,94.795c-0.063-0.078-0.132-0.152-0.204-0.223L89.336,77.573c-1.947-1.847-5.317-2.623-7.724-0.427 c-1.163,1.061-1.245,2.864-0.184,4.025c0.987,1.081,2.615,1.229,3.772,0.391c0.067,0.033,0.136,0.074,0.177,0.112l17.089,16.778 c0.078,0.19,0.109,0.616-0.062,0.926c-0.76,1.379-0.259,3.112,1.119,3.873c0.437,0.24,0.908,0.354,1.374,0.354 c1.005,0,1.979-0.532,2.498-1.474C108.674,99.816,108.447,96.73,106.854,94.795z"></path></g></svg></div></div></div><div class="td text"><div style="padding-left: 14px;"><div class="cont"></div><p class="textable css143" style="margin-top: 0px;"><strong><a href="tel:+73832021985" style="color: rgb(255, 255, 255);">+7 (383) 202-19-85</a></strong></p><div class="cont"></div></div></div></div></div></div></div></div></div></div></div></div><div class="padding_bottom"></div></div><div></div><div class="node section section-helper"></div>
+<!-- CREATIUM FOOTER -->
+
+<!-- CORE -->
+
+<!-- DEFER -->
+    
+<!-- PLUGINS -->
+
+<!--СКРИПТ ДЛЯ ОБЕСПЕЧЕНИЯ РАБОТЫ ИНТЕГРАЦИЙ-->
+<!-- Маска ввода для телефонного номера --><!-- //Маска ввода для телефонного номера -->
+<!-- Roistat Creatium --><!-- /Roistat Creatium -->
+</div><iframe name="ym-native-frame" title="ym-native-frame" frameborder="0" aria-hidden="true" style="opacity: 0 !important; width: 0px !important; height: 0px !important; position: absolute !important; left: 100% !important; bottom: 100% !important; border: 0px !important;" src="index_1.html"></iframe><ym-measure class="ym-viewport" style="display: block; top: 0px; right: 0px; bottom: 0px; left: 0px; height: 100vh; width: 100vw; position: fixed; transform: translate(0px, -100%); transform-origin: 0px 0px;"></ym-measure><ym-measure class="ym-zoom" style="bottom: 100%; position: fixed; width: 100vw;"></ym-measure>
+
+<iframe name="oauth2relay324771101" id="oauth2relay324771101" src="index_2.html#rpctoken=378610612&amp;forcesecure=1" tabindex="-1" aria-hidden="true" style="width: 1px; height: 1px; position: absolute; top: -100px;"></iframe><div class="roistat-lh-hidden"></div><div class="roistat-lh-hidden" style="left:20px; top: 0px; "><div class="roistat-lh-popup-wrapper" data-is-iframe="true"><iframe id="roistat-lh-popup-iframe" class="roistat-lh-popup-iframe" src="index_7.html" frameborder="0" style="width: 0px !important; height: 0px !important;"></iframe></div></div></body>
+</html>
